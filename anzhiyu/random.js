@@ -1,3 +1,56 @@
-var posts=["2024/04/30/hello-world/"];function toRandomPost(){
+var posts=["2024/04/30/hello-world/","2024/01/17/2024.01-2024.06 限定主人——舒蔓/","2024/01/17/各项事宜/","2024/02/15/NER/BERT&Transformer/","2024/04/24/NER/Few-Shot代码/","2024/04/24/NER/Few-shot代码梳理/","2024/03/18/NER/Learing_o/","2024/02/15/NER/RNN模型/","2024/02/07/NER/文本预处理/","2023/11/23/qi/凑数/","2024/02/07/NER/pytorch安装环境问题/","2023/11/23/jike/大创项目合集/","2023/11/23/jike/提问的智慧/","2024/04/24/zhan/text/","2023/11/23/zhan/Hexo 主题 Shoka & multi-markdown-it 渲染器使用说明/","2023/11/23/zhan/关于本站的搭建/","2023/11/23/qianduan/HTML5+CSS3/CSS3/","2023/11/23/qianduan/TSs/第一章：快速入门/","2023/11/23/qianduan/HTML5+CSS3/HTML5/","2023/11/23/qianduan/JS/JS高级/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/03 什么是预训练（Transformer 前奏）/","2023/11/23/qianduan/JS/mo/1_模块化进化史教程/","2023/11/23/qianduan/VUE/Vue3快速上手/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/04 统计语言模型（n元语言模型）/","2023/11/23/qianduan/JS/mo/模块化_笔记/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/05 神经网络语言模型（独热编码+词向量的起源）/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/06 Word2Vec模型（第一个专门做词向量的模型，CBOW和Skip-gram）/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/07 预训练语言模型的下游任务改造简介（如何使用词向量）/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/Transformer/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/00 预训练语言模型的前世今生（全文 24854 个词）/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/08 ELMo模型（双向LSTM模型解决词向量多义问题）/","2024/02/07/NER/Pre-training-language-model-main/第一篇 Transformer、GPT、BERT，预训练语言模型的前世今生（理论）/注意力机制（Attention ）/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
-  };
+  };var friend_link_list=[];
+    var refreshNum = 1;
+    function friendChainRandomTransmission() {
+      const randomIndex = Math.floor(Math.random() * friend_link_list.length);
+      const { name, link } = friend_link_list.splice(randomIndex, 1)[0];
+      Snackbar.show({
+        text:
+          "点击前往按钮进入随机一个友链，不保证跳转网站的安全性和可用性。本次随机到的是本站友链：「" + name + "」",
+        duration: 8000,
+        pos: "top-center",
+        actionText: "前往",
+        onActionClick: function (element) {
+          element.style.opacity = 0;
+          window.open(link, "_blank");
+        },
+      });
+    }
+    function addFriendLinksInFooter() {
+      var footerRandomFriendsBtn = document.getElementById("footer-random-friends-btn");
+      if(!footerRandomFriendsBtn) return;
+      footerRandomFriendsBtn.style.opacity = "0.2";
+      footerRandomFriendsBtn.style.transitionDuration = "0.3s";
+      footerRandomFriendsBtn.style.transform = "rotate(" + 360 * refreshNum++ + "deg)";
+      const finalLinkList = [];
+  
+      let count = 0;
+
+      while (friend_link_list.length && count < 3) {
+        const randomIndex = Math.floor(Math.random() * friend_link_list.length);
+        const { name, link, avatar } = friend_link_list.splice(randomIndex, 1)[0];
+  
+        finalLinkList.push({
+          name,
+          link,
+          avatar,
+        });
+        count++;
+      }
+  
+      let html = finalLinkList
+        .map(({ name, link }) => {
+          const returnInfo = "<a class='footer-item' href='" + link + "' target='_blank' rel='noopener nofollow'>" + name + "</a>"
+          return returnInfo;
+        })
+        .join("");
+  
+      html += "<a class='footer-item' href='/link/'>更多</a>";
+
+      document.getElementById("friend-links-in-footer").innerHTML = html;
+
+      setTimeout(()=>{
+        footerRandomFriendsBtn.style.opacity = "1";
+      }, 300)
+    };
