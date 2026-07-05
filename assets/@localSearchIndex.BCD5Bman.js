@@ -1,0 +1,1 @@
+import{Er as e}from"./framework.DK3N_jKQ.js";var t={root:()=>e(()=>import(`./@localSearchIndexroot.BkvjQeQh.js`),[])};export{t as default};

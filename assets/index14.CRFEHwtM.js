@@ -1,0 +1,1 @@
+import{$ as e,W as t,tt as n}from"./theme.BquGtMEq.js";import{listItemResolver as r}from"./index16.DBQBCKcN.js";var i=t({defaults:{"@type":`ItemList`},resolve(t,i){if(t.itemListElement){let a=1;t.itemListElement=e(t.itemListElement,i,r,{array:!0,afterResolve(e){n(e,`position`,a++)}})}return t}});export{i as itemListResolver};

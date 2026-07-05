@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "温铮的小站",
+    "home_page_url": "https://alive0103.github.io/",
+    "feed_url": "https://alive0103.github.io/feed.json",
+    "description": "我于荒颓中睁眼，亦在灰烬里重燃",
+    "icon": "http://wyy-alive-0o0.oss-cn-beijing.aliyuncs.com/avatar.png",
+    "author": {
+        "name": "王越洋",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://alive0103.github.io/posts/post-1",
+            "content_html": "<blockquote>\n<p>赠尔一缕剑气，愿尔所向披靡。</p>\n</blockquote>\n<p>此文写于本人经历艰难面试，即将正式入职之际，谨以此文纪念我完整的实习生涯，希望这篇文章能帮到正在迷茫焦虑的你。</p>\n<p>大致时间线：</p>\n<ul>\n<li>2024.11 - 2025</li>\n</ul>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/post-1\" target=\"_blank\">https://alive0103.github.io/posts/post-1</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/post-1",
+            "title": "是啊，我也曾彻夜难眠",
+            "date_modified": "2025-05-04T00:00:00.000Z",
+            "date_published": "2025-05-04T00:00:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/post-2",
+            "content_html": "<blockquote>\n<p>以下为本人参加的40场左右面试的面试官和几任mentor，从事职业多为后端开发，工作年限约为10年，主要针对就业环境，职业规划和工作细节展开。希望能给你带来一些思考。</p>\n</blockquote>\n<p>Q：当下后端就业市场的环</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/post-2\" target=\"_blank\">https://alive0103.github.io/posts/post-2</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/post-2",
+            "title": "实习小记",
+            "date_modified": "2025-05-04T00:00:00.000Z",
+            "date_published": "2025-05-04T00:00:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

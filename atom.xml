@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://alive0103.github.io/</id>
+    <title>温铮的小站</title>
+    <updated>2026-07-05T12:19:46.312Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>王越洋</name>
+        <email>972477867@qq.com</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://alive0103.github.io/"/>
+    <link rel="self" href="https://alive0103.github.io/atom.xml"/>
+    <subtitle>我于荒颓中睁眼，亦在灰烬里重燃</subtitle>
+    <logo>http://wyy-alive-0o0.oss-cn-beijing.aliyuncs.com/avatar.png</logo>
+    <icon>https://alive0103.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © 王越洋</rights>
+    <entry>
+        <title type="html"><![CDATA[是啊，我也曾彻夜难眠]]></title>
+        <id>https://alive0103.github.io/posts/post-1</id>
+        <link href="https://alive0103.github.io/posts/post-1"/>
+        <updated>2025-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>赠尔一缕剑气，愿尔所向披靡。</p>
+</blockquote>
+<p>此文写于本人经历艰难面试，即将正式入职之际，谨以此文纪念我完整的实习生涯，希望这篇文章能帮到正在迷茫焦虑的你。</p>
+<p>大致时间线：</p>
+<ul>
+<li>2024.11 - 2025</li>
+</ul>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/post-1" target="_blank">https://alive0103.github.io/posts/post-1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-04T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实习小记]]></title>
+        <id>https://alive0103.github.io/posts/post-2</id>
+        <link href="https://alive0103.github.io/posts/post-2"/>
+        <updated>2025-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>以下为本人参加的40场左右面试的面试官和几任mentor，从事职业多为后端开发，工作年限约为10年，主要针对就业环境，职业规划和工作细节展开。希望能给你带来一些思考。</p>
+</blockquote>
+<p>Q：当下后端就业市场的环</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/post-2" target="_blank">https://alive0103.github.io/posts/post-2</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-04T00:00:00.000Z</published>
+    </entry>
+</feed>
