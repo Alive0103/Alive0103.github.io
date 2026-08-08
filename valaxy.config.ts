@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 // add icons what you will need
@@ -162,8 +163,23 @@ export default defineValaxyConfig<UserThemeConfig>({
     }
   },
   addons: [
+    addonLightGallery(),
     addonTwikoo({
-      envId: 'alive-blog-d1givpp6t9b8f6d4c',
+      // ============================================================
+      // Twikoo 评论后端配置（CloudBase 包月环境）
+      //
+      // 环境状态（2026-08-09 已验证）：
+      //   - 匿名登录：已开启
+      //   - WEB 安全域名：alive0103.github.io 已配置
+      //   - 数据库集合：comment / config / counter / cap_challenges / cap_tokens 已创建
+      //   - 云函数：twikoo（Nodejs18.15）部署正常
+      //
+      // 如果以后需要迁移到 Vercel / Netlify / Hugging Face，把 envId
+      // 替换为完整 https URL 并删掉 region 即可。
+      // ============================================================
+      envId: 'alive-blog-d0gj9f6hk2ccba318',
+      // 腾讯云上海环境（默认），如果你的环境在广州请改为 'ap-guangzhou'
+      region: 'ap-shanghai',
     }),
   ],
 })

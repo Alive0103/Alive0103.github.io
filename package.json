@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "valaxy": "0.28.11",
+    "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-twikoo": "^0.0.4",
     "valaxy-theme-yun": "0.28.11"
   },
