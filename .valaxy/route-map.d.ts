@@ -80,6 +80,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/albums/work/': RouteRecordInfo<
+      '/albums/work/',
+      '/albums/work',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/archives/': RouteRecordInfo<
       '/archives/',
       '/archives',
@@ -115,16 +122,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/post-1': RouteRecordInfo<
-      '/posts/post-1',
-      '/posts/post-1',
+    '/posts/实习小记': RouteRecordInfo<
+      '/posts/实习小记',
+      '/posts/%E5%AE%9E%E4%B9%A0%E5%B0%8F%E8%AE%B0',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/post-2': RouteRecordInfo<
-      '/posts/post-2',
-      '/posts/post-2',
+    '/posts/是啊，我也曾彻夜难眠': RouteRecordInfo<
+      '/posts/是啊，我也曾彻夜难眠',
+      '/posts/%E6%98%AF%E5%95%8A%EF%BC%8C%E6%88%91%E4%B9%9F%E6%9B%BE%E5%BD%BB%E5%A4%9C%E9%9A%BE%E7%9C%A0',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -170,7 +177,7 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_ma_9c1e2f1698b46265fc41b5c4752a2819/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_magicast@0.5.3_vue@3.5.39_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
@@ -178,7 +185,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.11_@babel+parse_0b176ce527120c6e9c4c45375b8329c7/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.11_@babel+parser@7.29.7_@nuxt+kit@3.21.8_magicast@0.5.3__@types+markdown-it_00fdef99004d51e622ddb1415e1652f0/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -226,6 +233,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/albums/work/index.md': {
+      routes:
+        | '/albums/work/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/archives/index.md': {
       routes:
         | '/archives/'
@@ -250,7 +265,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_ma_9c1e2f1698b46265fc41b5c4752a2819/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_magicast@0.5.3_vue@3.5.39_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
@@ -258,7 +273,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | 'page'
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_ma_9c1e2f1698b46265fc41b5c4752a2819/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_magicast@0.5.3_vue@3.5.39_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -266,17 +281,17 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/post-1.md': {
+    'pages/posts/实习小记.md': {
       routes:
-        | '/posts/post-1'
+        | '/posts/实习小记'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/post-2.md': {
+    'pages/posts/是啊，我也曾彻夜难眠.md': {
       routes:
-        | '/posts/post-2'
+        | '/posts/是啊，我也曾彻夜难眠'
       views:
         | never
       pathParamNames:

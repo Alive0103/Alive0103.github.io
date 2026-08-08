@@ -1,6 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-import { addonWaline } from 'valaxy-addon-waline'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 
 // add icons what you will need
 const safelist = [
@@ -162,9 +162,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     }
   },
   addons: [
-    addonWaline({
-      serverURL: 'https://waline-qiji.vercel.app',
-      lang: 'zh-CN',
+    addonTwikoo({
+      envId: 'alive-blog-d1givpp6t9b8f6d4c',
     }),
   ],
 })

@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "valaxy": "0.28.11",
-    "valaxy-addon-waline": "^0.2.1",
+    "valaxy-addon-twikoo": "^0.0.4",
     "valaxy-theme-yun": "0.28.11"
   },
   "devDependencies": {

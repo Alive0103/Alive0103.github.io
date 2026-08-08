@@ -3,6 +3,9 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://alive0103.github.io/',
   lang: 'zh-CN',
+  cdn: {
+    prefix: 'https://cdn.jsdelivr.net/npm/',
+  },
   title: '温铮的小站',
   author: {
     name: '王越洋',
