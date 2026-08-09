@@ -1,0 +1,1 @@
+import{Ar as e}from"./framework.BPm4UcMm.js";var t={root:()=>e(()=>import(`./@localSearchIndexroot.CAly5jfG.js`),[])};export{t as default};
