@@ -3,3 +3,97 @@
 .site-author-intro {
   white-space: pre-line;
 }
+
+// ============================================================
+// Fleur /about/ 全屏页：保留导航栏，解除父级布局约束
+// ============================================================
+html.fleur-route {
+  // Hide decorative chrome but keep nav
+  .yun-bg,
+  .yun-fireworks,
+  .yun-back-to-top,
+  .yun-footer,
+  .yun-fullscreen-menu,
+  .yun-page-header-gradient {
+    display: none !important;
+  }
+
+  // Keep nav menu visible but make it overlay the dark page
+  .yun-nav-menu {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100 !important;
+    background: rgba(11, 10, 30, 0.85) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-bottom: 1px solid rgba(244, 236, 220, 0.08) !important;
+  }
+
+  // Reset body/app to remove theme padding — FULL BLEED
+  body,
+  #app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: clip;
+  }
+
+  // Remove any container max-width constraints on fleur route
+  .yun-layout-wrapper,
+  .yun-layout-wrapper > div,
+  .yun-layout-wrapper__content {
+    max-width: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  // Remove Yun theme horizontal padding on the card body wrapper
+  // (this is the .sm:px-6 lg:px-12 xl:px-16 element that adds 64px each side)
+  .yun-card-body > div,
+  .yun-card > div,
+  .yun-card-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  // Remove content width constraint
+  .yun-main .content {
+    max-width: none !important;
+    width: 100% !important;
+  }
+
+  // Reset YunLayoutWrapper constraints
+  .yun-layout-wrapper__content {
+    display: block !important;
+    flex-direction: unset !important;
+    align-items: unset !important;
+    justify-content: unset !important;
+    gap: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+
+  // Hide page header (关于我 title area)
+  .yun-page-header,
+  .yun-page-header-gradient,
+  .post-header,
+  .post-title {
+    display: none !important;
+  }
+
+  // Remove markdown h1 border
+  .markdown-body h1 {
+    border-bottom: none !important;
+  }
+
+  // Reset min-h-screen flex container
+  .min-h-screen.flex.flex-col {
+    display: block !important;
+    min-height: auto !important;
+  }
+}
