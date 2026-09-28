@@ -101,6 +101,125 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/essays/': RouteRecordInfo<
+      '/essays/',
+      '/essays',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/个人际遇': RouteRecordInfo<
+      '/essays/个人际遇',
+      '/essays/%E4%B8%AA%E4%BA%BA%E9%99%85%E9%81%87',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/人生规划': RouteRecordInfo<
+      '/essays/人生规划',
+      '/essays/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/想做的事': RouteRecordInfo<
+      '/essays/想做的事',
+      '/essays/%E6%83%B3%E5%81%9A%E7%9A%84%E4%BA%8B',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/成长': RouteRecordInfo<
+      '/essays/成长',
+      '/essays/%E6%88%90%E9%95%BF',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/教育': RouteRecordInfo<
+      '/essays/教育',
+      '/essays/%E6%95%99%E8%82%B2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/朋友': RouteRecordInfo<
+      '/essays/朋友',
+      '/essays/%E6%9C%8B%E5%8F%8B',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/热爱与工作': RouteRecordInfo<
+      '/essays/热爱与工作',
+      '/essays/%E7%83%AD%E7%88%B1%E4%B8%8E%E5%B7%A5%E4%BD%9C',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/爱情': RouteRecordInfo<
+      '/essays/爱情',
+      '/essays/%E7%88%B1%E6%83%85',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/看书': RouteRecordInfo<
+      '/essays/看书',
+      '/essays/%E7%9C%8B%E4%B9%A6',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/自驱力': RouteRecordInfo<
+      '/essays/自驱力',
+      '/essays/%E8%87%AA%E9%A9%B1%E5%8A%9B',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/读研': RouteRecordInfo<
+      '/essays/读研',
+      '/essays/%E8%AF%BB%E7%A0%94',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/那些惊艳的人': RouteRecordInfo<
+      '/essays/那些惊艳的人',
+      '/essays/%E9%82%A3%E4%BA%9B%E6%83%8A%E8%89%B3%E7%9A%84%E4%BA%BA',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/金钱': RouteRecordInfo<
+      '/essays/金钱',
+      '/essays/%E9%87%91%E9%92%B1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/随笔': RouteRecordInfo<
+      '/essays/随笔',
+      '/essays/%E9%9A%8F%E7%AC%94',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/burn out': RouteRecordInfo<
+      '/essays/burn out',
+      '/essays/burn%20out',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/essays/INFJ': RouteRecordInfo<
+      '/essays/INFJ',
+      '/essays/INFJ',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
@@ -122,16 +241,107 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/实习小记': RouteRecordInfo<
-      '/posts/实习小记',
-      '/posts/%E5%AE%9E%E4%B9%A0%E5%B0%8F%E8%AE%B0',
+    '/posts/tech/「熵」的流动': RouteRecordInfo<
+      '/posts/tech/「熵」的流动',
+      '/posts/tech/%E3%80%8C%E7%86%B5%E3%80%8D%E7%9A%84%E6%B5%81%E5%8A%A8',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/是啊，我也曾彻夜难眠': RouteRecordInfo<
-      '/posts/是啊，我也曾彻夜难眠',
-      '/posts/%E6%98%AF%E5%95%8A%EF%BC%8C%E6%88%91%E4%B9%9F%E6%9B%BE%E5%BD%BB%E5%A4%9C%E9%9A%BE%E7%9C%A0',
+    '/posts/tech/关于coding': RouteRecordInfo<
+      '/posts/tech/关于coding',
+      '/posts/tech/%E5%85%B3%E4%BA%8Ecoding',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/智能化与接入智能': RouteRecordInfo<
+      '/posts/tech/智能化与接入智能',
+      '/posts/tech/%E6%99%BA%E8%83%BD%E5%8C%96%E4%B8%8E%E6%8E%A5%E5%85%A5%E6%99%BA%E8%83%BD',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/本站复刻指南': RouteRecordInfo<
+      '/posts/tech/本站复刻指南',
+      '/posts/tech/%E6%9C%AC%E7%AB%99%E5%A4%8D%E5%88%BB%E6%8C%87%E5%8D%97',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/规范编码实践': RouteRecordInfo<
+      '/posts/tech/规范编码实践',
+      '/posts/tech/%E8%A7%84%E8%8C%83%E7%BC%96%E7%A0%81%E5%AE%9E%E8%B7%B5',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/记忆管理场景解析': RouteRecordInfo<
+      '/posts/tech/记忆管理场景解析',
+      '/posts/tech/%E8%AE%B0%E5%BF%86%E7%AE%A1%E7%90%86%E5%9C%BA%E6%99%AF%E8%A7%A3%E6%9E%90',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/DDD学习（一）': RouteRecordInfo<
+      '/posts/tech/DDD学习（一）',
+      '/posts/tech/DDD%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%B8%80%EF%BC%89',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/Knowledge Graph的饼': RouteRecordInfo<
+      '/posts/tech/Knowledge Graph的饼',
+      '/posts/tech/Knowledge%20Graph%E7%9A%84%E9%A5%BC',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tech/ReAct和RSI': RouteRecordInfo<
+      '/posts/tech/ReAct和RSI',
+      '/posts/tech/ReAct%E5%92%8CRSI',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/things/实习小记': RouteRecordInfo<
+      '/posts/things/实习小记',
+      '/posts/things/%E5%AE%9E%E4%B9%A0%E5%B0%8F%E8%AE%B0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/things/是啊，我也曾彻夜难眠': RouteRecordInfo<
+      '/posts/things/是啊，我也曾彻夜难眠',
+      '/posts/things/%E6%98%AF%E5%95%8A%EF%BC%8C%E6%88%91%E4%B9%9F%E6%9B%BE%E5%BD%BB%E5%A4%9C%E9%9A%BE%E7%9C%A0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/work/一次对话，我们在做什么': RouteRecordInfo<
+      '/posts/work/一次对话，我们在做什么',
+      '/posts/work/%E4%B8%80%E6%AC%A1%E5%AF%B9%E8%AF%9D%EF%BC%8C%E6%88%91%E4%BB%AC%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/work/为程序长远考虑': RouteRecordInfo<
+      '/posts/work/为程序长远考虑',
+      '/posts/work/%E4%B8%BA%E7%A8%8B%E5%BA%8F%E9%95%BF%E8%BF%9C%E8%80%83%E8%99%91',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/work/所谓「职业素养」': RouteRecordInfo<
+      '/posts/work/所谓「职业素养」',
+      '/posts/work/%E6%89%80%E8%B0%93%E3%80%8C%E8%81%8C%E4%B8%9A%E7%B4%A0%E5%85%BB%E3%80%8D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/work/AI之下，懂与不懂': RouteRecordInfo<
+      '/posts/work/AI之下，懂与不懂',
+      '/posts/work/AI%E4%B9%8B%E4%B8%8B%EF%BC%8C%E6%87%82%E4%B8%8E%E4%B8%8D%E6%87%82',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -257,6 +467,142 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/essays/index.md': {
+      routes:
+        | '/essays/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/个人际遇.md': {
+      routes:
+        | '/essays/个人际遇'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/人生规划.md': {
+      routes:
+        | '/essays/人生规划'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/想做的事.md': {
+      routes:
+        | '/essays/想做的事'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/成长.md': {
+      routes:
+        | '/essays/成长'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/教育.md': {
+      routes:
+        | '/essays/教育'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/朋友.md': {
+      routes:
+        | '/essays/朋友'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/热爱与工作.md': {
+      routes:
+        | '/essays/热爱与工作'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/爱情.md': {
+      routes:
+        | '/essays/爱情'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/看书.md': {
+      routes:
+        | '/essays/看书'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/自驱力.md': {
+      routes:
+        | '/essays/自驱力'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/读研.md': {
+      routes:
+        | '/essays/读研'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/那些惊艳的人.md': {
+      routes:
+        | '/essays/那些惊艳的人'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/金钱.md': {
+      routes:
+        | '/essays/金钱'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/随笔.md': {
+      routes:
+        | '/essays/随笔'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/burn out.md': {
+      routes:
+        | '/essays/burn out'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/essays/INFJ.md': {
+      routes:
+        | '/essays/INFJ'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/links/index.md': {
       routes:
         | '/links/'
@@ -281,17 +627,121 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/实习小记.md': {
+    'pages/posts/tech/「熵」的流动.md': {
       routes:
-        | '/posts/实习小记'
+        | '/posts/tech/「熵」的流动'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/是啊，我也曾彻夜难眠.md': {
+    'pages/posts/tech/关于coding.md': {
       routes:
-        | '/posts/是啊，我也曾彻夜难眠'
+        | '/posts/tech/关于coding'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/智能化与接入智能.md': {
+      routes:
+        | '/posts/tech/智能化与接入智能'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/本站复刻指南.md': {
+      routes:
+        | '/posts/tech/本站复刻指南'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/规范编码实践.md': {
+      routes:
+        | '/posts/tech/规范编码实践'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/记忆管理场景解析.md': {
+      routes:
+        | '/posts/tech/记忆管理场景解析'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/DDD学习（一）.md': {
+      routes:
+        | '/posts/tech/DDD学习（一）'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/Knowledge Graph的饼.md': {
+      routes:
+        | '/posts/tech/Knowledge Graph的饼'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tech/ReAct和RSI.md': {
+      routes:
+        | '/posts/tech/ReAct和RSI'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/things/实习小记.md': {
+      routes:
+        | '/posts/things/实习小记'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/things/是啊，我也曾彻夜难眠.md': {
+      routes:
+        | '/posts/things/是啊，我也曾彻夜难眠'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/work/一次对话，我们在做什么.md': {
+      routes:
+        | '/posts/work/一次对话，我们在做什么'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/work/为程序长远考虑.md': {
+      routes:
+        | '/posts/work/为程序长远考虑'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/work/所谓「职业素养」.md': {
+      routes:
+        | '/posts/work/所谓「职业素养」'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/work/AI之下，懂与不懂.md': {
+      routes:
+        | '/posts/work/AI之下，懂与不懂'
       views:
         | never
       pathParamNames:

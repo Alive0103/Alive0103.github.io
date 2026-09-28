@@ -8,6 +8,7 @@ const safelist = [
   'i-ri-home-line',
   'i-ri-home-4-line',
   'i-ri-article-line',
+  'i-ri-quill-pen-line',
   'i-ri-gallery-view',
   'i-ri-gallery-line',
   'i-ri-link',
@@ -47,6 +48,11 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-article-line',
       },
       {
+        text: '随笔',
+        link: '/essays/',
+        icon: 'i-ri-quill-pen-line',
+      },
+      {
         text: '项目',
         link: '/projects/',
         icon: 'i-ri-code-box-line',
@@ -79,6 +85,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/about/',
         icon: 'i-ri-user-line',
         color: '#6B8DE3',
+      },
+      {
+        name: '随笔',
+        url: '/essays/',
+        icon: 'i-ri-quill-pen-line',
+        color: '#E6A23C',
       },
       {
         name: '项目',
