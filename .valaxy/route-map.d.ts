@@ -94,6 +94,27 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/books/': RouteRecordInfo<
+      '/books/',
+      '/books',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/books/人类简史': RouteRecordInfo<
+      '/books/人类简史',
+      '/books/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/books/纳瓦尔宝典': RouteRecordInfo<
+      '/books/纳瓦尔宝典',
+      '/books/%E7%BA%B3%E7%93%A6%E5%B0%94%E5%AE%9D%E5%85%B8',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/categories/': RouteRecordInfo<
       '/categories/',
       '/categories',
@@ -454,6 +475,30 @@ declare module 'vue-router/auto-routes' {
     'pages/archives/index.md': {
       routes:
         | '/archives/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/books/index.md': {
+      routes:
+        | '/books/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/books/人类简史.md': {
+      routes:
+        | '/books/人类简史'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/books/纳瓦尔宝典.md': {
+      routes:
+        | '/books/纳瓦尔宝典'
       views:
         | never
       pathParamNames:

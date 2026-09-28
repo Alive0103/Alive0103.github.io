@@ -11,7 +11,8 @@
 - **正式文章**：`pages/posts/<分类>/`，URL = `/posts/<分类>/<标题>`，进文章栏/首页/归档/RSS/搜索。
   现有：`tech`（技术·笔记）、`things`（随记·记录）、`work`（工作·职业）。
 - **随笔（独立于文章）**：`pages/essays/`，URL = `/essays/<标题>`。因为文章栏统一按 `/posts` 前缀聚合、无"排除子目录"配置，把随笔放 posts 外是最干净的隔离方式——**不用任何 hide/draft**，自动不进文章栏/首页/归档/RSS。
-- `/essays/` 网格页：`components/PostGrid.vue` + `layouts/grid.vue`。新增分类页：`pages/<名>/index.md` 写 `layout: grid` + `folder: <相对 pages 的目录>` + `columns: 3`，再往 nav/pages 加入口。
+- **书架（独立于文章）**：`pages/books/`，URL = `/books/<书名>`。同随笔的隔离原理。`/books/` 网格由 `components/BookShelf.vue` + `layouts/shelf.vue` 实现：横版 3 列翻转卡片（左书封+右简介，hover 翻面显示摘要），页面 max-width 1280px。书的 md frontmatter：`title/date/categories: 读书` + `bookCover`(书封，卡片用) + `cover`(文章页头图，自定义) + `author` + `description`(正面简介) + `summary`(背面摘要)，正文为读书笔记。
+- 新增分类页：`pages/<名>/index.md` 写 `layout: grid`（方格卡片）或 `layout: shelf`（条形卡片）+ `folder: <相对 pages 的目录>`，再往 nav/pages 加入口、图标加进 safelist。
 - 未写完的 md 加 `draft: true`：dev 可见、生产构建与 RSS 自动跳过。
 
 ## 自定义布局（重要坑）
