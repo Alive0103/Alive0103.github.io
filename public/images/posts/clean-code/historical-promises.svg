@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">规则会变化，历史承诺仍然有效</title>
+  <desc id="desc">假设退款新政策只适用于新订单。政策切换点 T 之前下单的旧订单，即使在 T 之后申请退款，仍按下单日起三十天的申请窗口判定；T 之后下单的新订单按下单日起十四天的申请窗口判定。时间轴仅为示意，不按天数比例绘制。不能用今天的退款期限常量覆盖旧订单适用的约定。</desc>
+  <defs>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"/></marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="#047857" stroke-width="2" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1200" height="820" fill="#ffffff"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#1f2937">
+    <text x="48" y="68" font-size="40" font-weight="600">规则会变化，历史承诺仍然有效</text>
+    <text x="48" y="114" font-size="26" fill="#64748b">假设：新政策只适用于新订单；旧订单保留购买时的约定。</text>
+    <path d="M 48 148 H 1152" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+
+    <text x="392" y="193" text-anchor="middle" font-size="26" fill="#64748b">政策切换前</text>
+    <text x="892" y="193" text-anchor="middle" font-size="26" fill="#64748b">政策切换后</text>
+    <path d="M 256 217 H 1128" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow-gray)"/>
+    <circle cx="640" cy="217" r="6" fill="#64748b"/>
+    <text x="640" y="254" text-anchor="middle" font-size="26">切换点 T</text>
+    <path d="M 640 273 V 643" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 7"/>
+
+    <text x="76" y="332" font-size="30" font-weight="600" fill="#2563eb">旧订单</text>
+    <text x="76" y="372" font-size="26" fill="#64748b">保留旧约定</text>
+    <rect x="284" y="300" width="220" height="96" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="394" y="340" text-anchor="middle" font-size="30" font-weight="600">下单</text>
+    <text x="394" y="376" text-anchor="middle" font-size="26" fill="#64748b">切换前</text>
+    <rect x="828" y="300" width="284" height="96" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="970" y="340" text-anchor="middle" font-size="30" font-weight="600">申请退款</text>
+    <text x="970" y="376" text-anchor="middle" font-size="26" fill="#64748b">切换后</text>
+    <path d="M 504 348 H 812" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <rect x="534" y="294" width="248" height="40" fill="#ffffff"/>
+    <text x="658" y="324" text-anchor="middle" font-size="26" fill="#2563eb">继续适用旧约定</text>
+    <rect x="428" y="412" width="460" height="40" fill="#ffffff"/>
+    <text x="658" y="441" text-anchor="middle" font-size="26" fill="#2563eb">申请窗口：自下单起 30 天内</text>
+
+    <path d="M 48 469 H 1152" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="76" y="538" font-size="30" font-weight="600" fill="#047857">新订单</text>
+    <text x="76" y="578" font-size="26" fill="#64748b">适用新约定</text>
+    <rect x="692" y="502" width="198" height="96" rx="6" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+    <text x="791" y="542" text-anchor="middle" font-size="30" font-weight="600">下单</text>
+    <text x="791" y="578" text-anchor="middle" font-size="26" fill="#64748b">切换后</text>
+    <rect x="956" y="502" width="156" height="96" rx="6" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+    <text x="1034" y="542" text-anchor="middle" font-size="30" font-weight="600">申请退款</text>
+    <text x="1034" y="578" text-anchor="middle" font-size="26" fill="#64748b">切换后</text>
+    <path d="M 890 550 H 940" fill="none" stroke="#047857" stroke-width="2" marker-end="url(#arrow-green)"/>
+    <text x="902" y="643" text-anchor="middle" font-size="26" fill="#047857">申请窗口：自下单起 14 天内</text>
+
+    <rect x="48" y="681" width="1104" height="97" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="76" y="720" font-size="30" font-weight="600">按订单适用的约定判定，不能只读取今天的常量</text>
+    <text x="76" y="757" font-size="24" fill="#64748b">切换点不会重新启动退款窗口。时间轴仅为示意，不按天数比例绘制。</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" role="img" aria-labelledby="title desc">
+<title id="title">从「说过」到「执行」的理解阶梯</title>
+<desc id="desc">理解一句话要经过说过、听到、理解、同意、执行五级。日常对话里，听到、理解、同意这三级容易被跳过，一个「好的」未必说明对方已经走到执行。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#677A90"/></marker></defs>
+<rect width="720" height="470" fill="#FFFFFF"/>
+<g font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="40" y="46" font-size="25" font-weight="600" text-anchor="start" fill="#172B4D">从「说过」到「执行」的理解阶梯</text>
+<text x="40" y="76" font-size="15" font-weight="400" text-anchor="start" fill="#526277">一个「好的」，未必说明对方已经走到最后一级。</text>
+<path d="M 40 92 L 680 92" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40" y="300" width="120" height="80" rx="6" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="100" y="334" font-size="18" font-weight="600" text-anchor="middle" fill="#2F5D92">说过</text>
+<text x="100" y="360" font-size="12" font-weight="400" text-anchor="middle" fill="#526277">信息进入记录</text>
+<rect x="172" y="256" width="120" height="124" rx="6" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="232" y="290" font-size="18" font-weight="600" text-anchor="middle" fill="#976020">听到</text>
+<text x="232" y="316" font-size="12" font-weight="400" text-anchor="middle" fill="#526277">对方接收到了</text>
+<rect x="304" y="212" width="120" height="168" rx="6" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="364" y="246" font-size="18" font-weight="600" text-anchor="middle" fill="#976020">理解</text>
+<text x="364" y="272" font-size="12" font-weight="400" text-anchor="middle" fill="#526277">明白了意思</text>
+<rect x="436" y="168" width="120" height="212" rx="6" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="496" y="202" font-size="18" font-weight="600" text-anchor="middle" fill="#976020">同意</text>
+<text x="496" y="228" font-size="12" font-weight="400" text-anchor="middle" fill="#526277">接受这个说法</text>
+<rect x="568" y="124" width="120" height="256" rx="6" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
+<text x="628" y="158" font-size="18" font-weight="600" text-anchor="middle" fill="#326A54">执行</text>
+<text x="628" y="184" font-size="12" font-weight="400" text-anchor="middle" fill="#526277">事情真的被做</text>
+<path d="M 160 340 L 172 340" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 292 340 L 304 340" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 424 340 L 436 340" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 556 340 L 568 340" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 172 396 L 172 408 L 556 408 L 556 396" fill="none" stroke="#C99657" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="364" y="430" font-size="13" font-weight="400" text-anchor="middle" fill="#976020">日常对话容易跳过的中间步骤：一句「好的」，未必走完了这一级级阶梯</text>
+<text x="360" y="456" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">说过、理解、同意、执行是不同状态，需要分别记录。</text>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+<title id="title">人与人、人与机器人对话的三项差异</title>
+<desc id="desc">对比人与人对话和人与机器人对话在背景获取、偏差发现、承诺落实三个维度上的差异：人能调用共同背景、从语气察觉偏差、用行动兑现承诺；机器人只能看到被传入的历史，细微错位容易漏掉，行动依赖系统承接。</desc>
+<rect width="720" height="500" fill="#FFFFFF"/>
+<g font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="40" y="44" font-size="25" font-weight="600" text-anchor="start" fill="#172B4D">当对话的对面换成了机器人</text>
+<text x="40" y="74" font-size="15" font-weight="400" text-anchor="start" fill="#526277">同一个问题，两种对话对象能调用的资源并不相同。</text>
+<path d="M 40 90 L 680 90" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="140" y="104" width="265" height="40" rx="6" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="272" y="130" font-size="17" font-weight="600" text-anchor="middle" fill="#2F5D92">人与人对话</text>
+<rect x="415" y="104" width="265" height="40" rx="6" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="547" y="130" font-size="17" font-weight="600" text-anchor="middle" fill="#976020">人与机器人对话</text>
+<text x="40" y="204" font-size="16" font-weight="600" text-anchor="start" fill="#172B4D">背景获取</text>
+<rect x="140" y="156" width="265" height="84" rx="6" fill="#FFFFFF" stroke="#5A7FAD" stroke-width="1.5"/>
+<text x="272" y="190" font-size="13" font-weight="400" text-anchor="middle" fill="#172B4D">共同经历、语气、上下文</text>
+<text x="272" y="214" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">在对话中随时被双方调用</text>
+<rect x="415" y="156" width="265" height="84" rx="6" fill="#FFFFFF" stroke="#C99657" stroke-width="1.5"/>
+<text x="547" y="190" font-size="13" font-weight="400" text-anchor="middle" fill="#172B4D">只有被记录并传入的历史</text>
+<text x="547" y="214" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">「说过」不等于此刻能看到</text>
+<text x="40" y="302" font-size="16" font-weight="600" text-anchor="start" fill="#172B4D">偏差发现</text>
+<rect x="140" y="254" width="265" height="84" rx="6" fill="#FFFFFF" stroke="#5A7FAD" stroke-width="1.5"/>
+<text x="272" y="288" font-size="13" font-weight="400" text-anchor="middle" fill="#172B4D">从犹豫、改口、追问里</text>
+<text x="272" y="312" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">察觉对方可能没有懂</text>
+<rect x="415" y="254" width="265" height="84" rx="6" fill="#FFFFFF" stroke="#C99657" stroke-width="1.5"/>
+<text x="547" y="288" font-size="13" font-weight="400" text-anchor="middle" fill="#172B4D">较明显的冲突容易识别</text>
+<text x="547" y="312" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">依赖语境的细微错位容易漏掉</text>
+<text x="40" y="400" font-size="16" font-weight="600" text-anchor="start" fill="#172B4D">承诺落实</text>
+<rect x="140" y="352" width="265" height="84" rx="6" fill="#FFFFFF" stroke="#5A7FAD" stroke-width="1.5"/>
+<text x="272" y="386" font-size="13" font-weight="400" text-anchor="middle" fill="#172B4D">「我帮你问问」的背后</text>
+<text x="272" y="410" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">有人记得，也有人跟进</text>
+<rect x="415" y="352" width="265" height="84" rx="6" fill="#FFFFFF" stroke="#C99657" stroke-width="1.5"/>
+<text x="547" y="386" font-size="13" font-weight="400" text-anchor="middle" fill="#172B4D">答复可以即时生成</text>
+<text x="547" y="410" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">行动依赖系统流程承接</text>
+<text x="360" y="472" font-size="13" font-weight="400" text-anchor="middle" fill="#526277">判断一个客服系统，不只看回答像不像人，还看这三件事由谁承接。</text>
+</g>
+</svg>

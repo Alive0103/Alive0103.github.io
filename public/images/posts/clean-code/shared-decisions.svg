@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+<title id="title">相似的代码，会一起改变吗？</title>
+<desc id="desc">退款政策期限和文件保留期限当前都为30天，退款新政策改为14天时，文件保留期限仍可保持30天，且新政策的适用范围需要单独确定。用户提交和客服代提交退款应共用退款期限判定，依据订单适用政策，使同一订单在两处判定一致。独立的业务政策仍可复用底层日期运算。</desc>
+<defs><marker id="arrow-2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#2563eb" stroke-width="1.5"/></marker><marker id="arrow-047857" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#047857" stroke-width="1.5"/></marker><marker id="arrow-b45309" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#b45309" stroke-width="1.5"/></marker><marker id="arrow-94a3b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#94a3b8" stroke-width="1.5"/></marker></defs>
+<g font-family="'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="1200" height="860" rx="0" fill="#ffffff" stroke="transparent" stroke-width="2"/>
+<text x="48" y="68" font-size="40" fill="#1f2937" text-anchor="start" font-weight="400">相似的代码，会一起改变吗？</text>
+<text x="48" y="114" font-size="26" fill="#64748b" text-anchor="start" font-weight="400">用一次假设的需求变化，辨认真正需要共享的规则。</text>
+<path d="M48 148L1152 148" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="48" y="172" width="1104" height="300" rx="6" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+<text x="72" y="214" font-size="30" fill="#b45309" text-anchor="start" font-weight="600">A. 独立政策：今天相同，不必共同变化</text>
+<text x="560" y="262" font-size="26" fill="#64748b" text-anchor="middle" font-weight="400">当前</text>
+<text x="824" y="262" font-size="26" fill="#64748b" text-anchor="middle" font-weight="400">政策调整后</text>
+<text x="72" y="321" font-size="28" fill="#1f2937" text-anchor="start" font-weight="400">退款政策期限</text>
+<rect x="480" y="282" width="160" height="60" rx="6" fill="#fff" stroke="#b45309" stroke-width="2"/>
+<text x="560" y="323" font-size="30" fill="#b45309" text-anchor="middle" font-weight="400">30 天</text>
+<rect x="744" y="282" width="160" height="60" rx="6" fill="#fff" stroke="#b45309" stroke-width="2"/>
+<text x="824" y="323" font-size="30" fill="#b45309" text-anchor="middle" font-weight="600">14 天</text>
+<path d="M664 312L720 312" fill="none" stroke="#b45309" stroke-width="2" marker-end="url(#arrow-b45309)"/>
+<text x="968" y="323" font-size="26" fill="#b45309" text-anchor="start" font-weight="400">调整</text>
+<text x="72" y="401" font-size="28" fill="#1f2937" text-anchor="start" font-weight="400">文件保留期限</text>
+<rect x="480" y="362" width="160" height="60" rx="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<text x="560" y="403" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="400">30 天</text>
+<rect x="744" y="362" width="160" height="60" rx="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<text x="824" y="403" font-size="30" fill="#2563eb" text-anchor="middle" font-weight="600">30 天</text>
+<path d="M664 392L720 392" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-2563eb)"/>
+<text x="968" y="403" font-size="26" fill="#2563eb" text-anchor="start" font-weight="400">保持</text>
+<text x="72" y="450" font-size="24" fill="#64748b" text-anchor="start" font-weight="400">示例：退款新政策从 30 天调整为 14 天，适用范围单独确定。</text>
+<rect x="48" y="496" width="1104" height="262" rx="6" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+<text x="72" y="540" font-size="30" fill="#047857" text-anchor="start" font-weight="600">B. 同一规则：同一订单，两处判定一致</text>
+<rect x="72" y="594" width="280" height="82" rx="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<text x="212" y="646" font-size="28" fill="#1f2937" text-anchor="middle" font-weight="600">用户提交退款</text>
+<rect x="848" y="594" width="280" height="82" rx="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<text x="988" y="646" font-size="28" fill="#1f2937" text-anchor="middle" font-weight="600">客服代提交退款</text>
+<rect x="440" y="578" width="320" height="122" rx="6" fill="#fff" stroke="#047857" stroke-width="2"/>
+<text x="600" y="624" font-size="30" fill="#047857" text-anchor="middle" font-weight="600">退款期限判定</text>
+<text x="600" y="672" font-size="26" fill="#64748b" text-anchor="middle" font-weight="400">依据订单适用政策</text>
+<path d="M368 635L424 635" fill="none" stroke="#047857" stroke-width="2" marker-end="url(#arrow-047857)"/>
+<path d="M832 635L776 635" fill="none" stroke="#047857" stroke-width="2" marker-end="url(#arrow-047857)"/>
+<text x="600" y="735" font-size="26" fill="#047857" text-anchor="middle" font-weight="400">共用判定逻辑，保留政策的适用条件。</text>
+<path d="M48 786L1152 786" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="820" font-size="26" fill="#1f2937" text-anchor="middle" font-weight="600">业务政策各自决定；底层日期运算仍可复用。</text>
+</g>
+</svg>

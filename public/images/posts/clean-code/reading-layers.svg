@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="704" viewBox="0 0 1200 704" role="img" aria-labelledby="title desc">
+<title id="title">抽象，让阅读有地方停下来</title>
+<desc id="desc">导出报表的流程层依次是读取订单、渲染报表、保存文件。各步骤分别封装查询与映射、列宽与转义及拼接、路径与存储等实现细节。理解流程时可以停在流程层，修改列宽时再进入渲染细节。</desc>
+<defs><marker id="arrow-2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#2563eb" stroke-width="1.5"/></marker><marker id="arrow-047857" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#047857" stroke-width="1.5"/></marker><marker id="arrow-b45309" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#b45309" stroke-width="1.5"/></marker><marker id="arrow-94a3b8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#94a3b8" stroke-width="1.5"/></marker></defs>
+<g font-family="'PingFang SC', 'Microsoft YaHei', sans-serif">
+<rect x="0" y="0" width="1200" height="704" rx="0" fill="#ffffff" stroke="transparent" stroke-width="2"/>
+<text x="48" y="68" font-size="40" fill="#1f2937" text-anchor="start" font-weight="400">抽象，让阅读有地方停下来</text>
+<text x="48" y="114" font-size="26" fill="#64748b" text-anchor="start" font-weight="400">理解流程时停在这一层；修改细节时再往下看。</text>
+<path d="M48 148L1152 148" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+<text x="48" y="198" font-size="28" fill="#1f2937" text-anchor="start" font-weight="600">流程层：导出报表</text>
+<rect x="48" y="222" width="304" height="88" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="200" y="277" font-size="32" fill="#1f2937" text-anchor="middle" font-weight="600">读取订单</text>
+<rect x="448" y="222" width="304" height="88" rx="6" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+<text x="600" y="277" font-size="32" fill="#047857" text-anchor="middle" font-weight="600">渲染报表</text>
+<rect x="848" y="222" width="304" height="88" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="1000" y="277" font-size="32" fill="#1f2937" text-anchor="middle" font-weight="600">保存文件</text>
+<path d="M368 266L432 266" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-2563eb)"/>
+<path d="M768 266L832 266" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-2563eb)"/>
+<path d="M48 364L412 364" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M788 364L1152 364" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="600" y="374" font-size="28" fill="#047857" text-anchor="middle" font-weight="400">可以先停在这里</text>
+<path d="M200 326L200 412" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrow-94a3b8)"/>
+<path d="M1000 326L1000 412" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrow-94a3b8)"/>
+<path d="M600 392L600 412" fill="none" stroke="#047857" stroke-width="2" marker-end="url(#arrow-047857)"/>
+<rect x="48" y="428" width="304" height="128" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="200" y="482" font-size="30" fill="#1f2937" text-anchor="middle" font-weight="400">查询与映射</text>
+<text x="200" y="526" font-size="26" fill="#64748b" text-anchor="middle" font-weight="400">数据如何取出</text>
+<rect x="848" y="428" width="304" height="128" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="1000" y="482" font-size="30" fill="#1f2937" text-anchor="middle" font-weight="400">路径与存储</text>
+<text x="1000" y="526" font-size="26" fill="#64748b" text-anchor="middle" font-weight="400">文件如何写入</text>
+<rect x="448" y="428" width="304" height="128" rx="6" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+<rect x="466" y="492" width="268" height="48" rx="6" fill="#fff" stroke="#047857" stroke-width="2"/>
+<text x="600" y="472" font-size="28" fill="#047857" text-anchor="middle" font-weight="600">渲染细节</text>
+<text x="600" y="525" font-size="26" fill="#047857" text-anchor="middle" font-weight="400">列宽 · 转义 · 拼接</text>
+<text x="600" y="606" font-size="28" fill="#047857" text-anchor="middle" font-weight="400">需要改列宽时，再深入这一处。</text>
+<path d="M48 630L1152 630" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="664" font-size="26" fill="#1f2937" text-anchor="middle" font-weight="600">好的拆分，让当前不需要的细节可以暂时放下。</text>
+</g>
+</svg>

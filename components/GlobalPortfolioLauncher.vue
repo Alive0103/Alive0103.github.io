@@ -19,9 +19,9 @@
     </button>
   </Teleport>
 
-  <!-- Modal teleported to body -->
-  <Teleport to="body">
-    <PortfolioModal v-if="portfolio.isOpen.value" @close="portfolio.close()" />
+  <!-- Mount the body teleport only when opened, after page hydration. -->
+  <Teleport v-if="portfolio.isOpen.value" to="body">
+    <PortfolioModal @close="portfolio.close()" />
   </Teleport>
 </template>
 
