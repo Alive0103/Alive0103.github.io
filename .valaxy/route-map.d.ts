@@ -241,6 +241,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/fresh/': RouteRecordInfo<
+      '/fresh/',
+      '/fresh',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/fresh/2026-10-03': RouteRecordInfo<
+      '/fresh/2026-10-03',
+      '/fresh/2026-10-03',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
@@ -643,6 +657,22 @@ declare module 'vue-router/auto-routes' {
     'pages/essays/INFJ.md': {
       routes:
         | '/essays/INFJ'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/fresh/index.md': {
+      routes:
+        | '/fresh/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/fresh/2026-10-03.md': {
+      routes:
+        | '/fresh/2026-10-03'
       views:
         | never
       pathParamNames:

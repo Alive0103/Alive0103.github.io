@@ -21,6 +21,6 @@
 <text x="640" y="476" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">但关键机制尚未弄懂</text>
 <rect x="96" y="536" width="1008" height="90" rx="8" fill="#F5F7FA" stroke="#CAD3DF" stroke-width="2"/>
 <text x="600" y="590" font-size="28" font-weight="400" text-anchor="middle" fill="#42546B">其余实现细节：通过稳定接口、成熟抽象和协作管理</text>
-<text x="600" y="729" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">不必填平所有差距，优先补上自己负责的关键保证。</text>
+<text x="600" y="729" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">不必填平所有差距，优先弄清自己负责的关键保证。</text>
 </g>
 </svg>

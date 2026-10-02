@@ -19,17 +19,19 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17001,
-      "version": 1,
-      "versionNonce": 18001,
+      "version": 2,
+      "versionNonce": 903713093,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-page"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
-      "roundness": null
+      "updated": 1790979802933,
+      "roundness": null,
+      "index": "a0",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-002",
@@ -37,7 +39,7 @@
       "x": 48,
       "y": 28,
       "width": 1104,
-      "height": 50.0,
+      "height": 50,
       "angle": 0,
       "strokeColor": "#1f2937",
       "backgroundColor": "transparent",
@@ -47,14 +49,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17002,
-      "version": 1,
-      "versionNonce": 18002,
+      "version": 2,
+      "versionNonce": 1299370379,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "这次修改，改变了什么？",
       "originalText": "这次修改，改变了什么？",
       "fontSize": 40,
@@ -63,7 +65,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "a1",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-003",
@@ -81,14 +86,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17003,
-      "version": 1,
-      "versionNonce": 18003,
+      "version": 2,
+      "versionNonce": 352657573,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "先辨认行为边界，再讨论代码是否更整洁。",
       "originalText": "先辨认行为边界，再讨论代码是否更整洁。",
       "fontSize": 26,
@@ -97,7 +102,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "a2",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-004",
@@ -115,14 +123,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17004,
-      "version": 1,
-      "versionNonce": 18004,
+      "version": 2,
+      "versionNonce": 30828587,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -137,7 +145,10 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "lastCommittedPoint": null
+      "lastCommittedPoint": null,
+      "index": "a3",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-005",
@@ -155,20 +166,22 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17005,
-      "version": 1,
-      "versionNonce": 18005,
+      "version": 2,
+      "versionNonce": 2068038661,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-refactoring"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "a4",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-006",
@@ -186,16 +199,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17006,
-      "version": 1,
-      "versionNonce": 18006,
+      "version": 2,
+      "versionNonce": 516827851,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-refactoring"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "结构重构",
       "originalText": "结构重构",
       "fontSize": 30,
@@ -204,12 +217,15 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "a5",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-007",
       "type": "text",
-      "x": 578.0,
+      "x": 578,
       "y": 188,
       "width": 550,
       "height": 32.5,
@@ -222,16 +238,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17007,
-      "version": 1,
-      "versionNonce": 18007,
+      "version": 2,
+      "versionNonce": 479656805,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-refactoring"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "核对：可观察行为保持",
       "originalText": "核对：可观察行为保持",
       "fontSize": 26,
@@ -240,7 +256,10 @@
       "textAlign": "right",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "a6",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-008",
@@ -258,14 +277,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17008,
-      "version": 1,
-      "versionNonce": 18008,
+      "version": 2,
+      "versionNonce": 1492425067,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "原来",
       "originalText": "原来",
       "fontSize": 26,
@@ -274,7 +293,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "a7",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-009",
@@ -292,28 +314,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17009,
-      "version": 1,
-      "versionNonce": 18009,
+      "version": 2,
+      "versionNonce": 1363953349,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-168-286"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "a8",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-010",
       "type": "text",
-      "x": 180.0,
+      "x": 180,
       "y": 268,
       "width": 152,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#1f2937",
       "backgroundColor": "transparent",
@@ -323,16 +347,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17010,
-      "version": 1,
-      "versionNonce": 18010,
+      "version": 2,
+      "versionNonce": 1838429195,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-168-286"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "输入 A",
       "originalText": "输入 A",
       "fontSize": 28,
@@ -341,7 +365,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "a9",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-011",
@@ -359,28 +386,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17011,
-      "version": 1,
-      "versionNonce": 18011,
+      "version": 2,
+      "versionNonce": 201401893,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-944-286"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aA",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-012",
       "type": "text",
-      "x": 956.0,
+      "x": 956,
       "y": 268,
       "width": 152,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#1f2937",
       "backgroundColor": "transparent",
@@ -390,16 +419,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17012,
-      "version": 1,
-      "versionNonce": 18012,
+      "version": 2,
+      "versionNonce": 212302507,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-944-286"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "结果 B",
       "originalText": "结果 B",
       "fontSize": 28,
@@ -408,7 +437,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aB",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-013",
@@ -426,14 +458,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17013,
-      "version": 1,
-      "versionNonce": 18013,
+      "version": 2,
+      "versionNonce": 262347141,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -449,7 +481,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "aC",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-014",
@@ -467,14 +502,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17014,
-      "version": 1,
-      "versionNonce": 18014,
+      "version": 2,
+      "versionNonce": 47770955,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -490,7 +525,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "aD",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-015",
@@ -508,14 +546,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17015,
-      "version": 1,
-      "versionNonce": 18015,
+      "version": 2,
+      "versionNonce": 1701814501,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "之后",
       "originalText": "之后",
       "fontSize": 26,
@@ -524,7 +562,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aE",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-016",
@@ -542,28 +583,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17016,
-      "version": 1,
-      "versionNonce": 18016,
+      "version": 2,
+      "versionNonce": 595790827,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-168-398"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aF",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-017",
       "type": "text",
-      "x": 180.0,
+      "x": 180,
       "y": 380,
       "width": 152,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#1f2937",
       "backgroundColor": "transparent",
@@ -573,16 +616,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17017,
-      "version": 1,
-      "versionNonce": 18017,
+      "version": 2,
+      "versionNonce": 317996101,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-168-398"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "输入 A",
       "originalText": "输入 A",
       "fontSize": 28,
@@ -591,7 +634,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aG",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-018",
@@ -609,28 +655,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17018,
-      "version": 1,
-      "versionNonce": 18018,
+      "version": 2,
+      "versionNonce": 1924159115,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-944-398"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aH",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-019",
       "type": "text",
-      "x": 956.0,
+      "x": 956,
       "y": 380,
       "width": 152,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#1f2937",
       "backgroundColor": "transparent",
@@ -640,16 +688,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17019,
-      "version": 1,
-      "versionNonce": 18019,
+      "version": 2,
+      "versionNonce": 269380517,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-io-944-398"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "结果 B",
       "originalText": "结果 B",
       "fontSize": 28,
@@ -658,7 +706,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aI",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-020",
@@ -676,14 +727,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17020,
-      "version": 1,
-      "versionNonce": 18020,
+      "version": 2,
+      "versionNonce": 253447467,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -699,7 +750,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "aJ",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-021",
@@ -717,14 +771,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17021,
-      "version": 1,
-      "versionNonce": 18021,
+      "version": 2,
+      "versionNonce": 2095820549,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -740,7 +794,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "aK",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-022",
@@ -758,28 +815,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17022,
-      "version": 1,
-      "versionNonce": 18022,
+      "version": 2,
+      "versionNonce": 1546547147,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-before"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aL",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-023",
       "type": "text",
-      "x": 432.0,
+      "x": 432,
       "y": 248,
       "width": 400,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#2563eb",
       "backgroundColor": "transparent",
@@ -789,16 +848,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17023,
-      "version": 1,
-      "versionNonce": 18023,
+      "version": 2,
+      "versionNonce": 403277413,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-before"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "查询 · 组装 · 写入",
       "originalText": "查询 · 组装 · 写入",
       "fontSize": 28,
@@ -807,12 +866,15 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aM",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-024",
       "type": "text",
-      "x": 432.0,
+      "x": 432,
       "y": 288,
       "width": 400,
       "height": 32.5,
@@ -825,16 +887,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17024,
-      "version": 1,
-      "versionNonce": 18024,
+      "version": 2,
+      "versionNonce": 1812217451,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-before"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "交织在一个函数里",
       "originalText": "交织在一个函数里",
       "fontSize": 26,
@@ -843,7 +905,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aN",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-025",
@@ -861,28 +926,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17025,
-      "version": 1,
-      "versionNonce": 18025,
+      "version": 2,
+      "versionNonce": 1949659589,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-after-416"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aO",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-026",
       "type": "text",
-      "x": 428.0,
+      "x": 428,
       "y": 380,
       "width": 104,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#2563eb",
       "backgroundColor": "transparent",
@@ -892,16 +959,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17026,
-      "version": 1,
-      "versionNonce": 18026,
+      "version": 2,
+      "versionNonce": 694630667,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-after-416"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "查询",
       "originalText": "查询",
       "fontSize": 28,
@@ -910,7 +977,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aP",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-027",
@@ -928,28 +998,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17027,
-      "version": 1,
-      "versionNonce": 18027,
+      "version": 2,
+      "versionNonce": 1854730533,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-after-568"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aQ",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-028",
       "type": "text",
-      "x": 580.0,
+      "x": 580,
       "y": 380,
       "width": 104,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#2563eb",
       "backgroundColor": "transparent",
@@ -959,16 +1031,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17028,
-      "version": 1,
-      "versionNonce": 18028,
+      "version": 2,
+      "versionNonce": 1104273323,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-after-568"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "组装",
       "originalText": "组装",
       "fontSize": 28,
@@ -977,7 +1049,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aR",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-029",
@@ -995,28 +1070,30 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17029,
-      "version": 1,
-      "versionNonce": 18029,
+      "version": 2,
+      "versionNonce": 1685947525,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-after-720"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aS",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-030",
       "type": "text",
-      "x": 732.0,
+      "x": 732,
       "y": 380,
       "width": 104,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#2563eb",
       "backgroundColor": "transparent",
@@ -1026,16 +1103,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17030,
-      "version": 1,
-      "versionNonce": 18030,
+      "version": 2,
+      "versionNonce": 1332654667,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-after-720"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "写入",
       "originalText": "写入",
       "fontSize": 28,
@@ -1044,7 +1121,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aT",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-031",
@@ -1062,14 +1142,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17031,
-      "version": 1,
-      "versionNonce": 18031,
+      "version": 2,
+      "versionNonce": 700754917,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -1085,7 +1165,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "aU",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-032",
@@ -1103,14 +1186,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17032,
-      "version": 1,
-      "versionNonce": 18032,
+      "version": 2,
+      "versionNonce": 1125658859,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -1126,7 +1209,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "aV",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-033",
@@ -1144,20 +1230,22 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17033,
-      "version": 1,
-      "versionNonce": 18033,
+      "version": 2,
+      "versionNonce": 1047521093,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-behavior"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "aW",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-034",
@@ -1175,16 +1263,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17034,
-      "version": 1,
-      "versionNonce": 18034,
+      "version": 2,
+      "versionNonce": 240704395,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-behavior"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "行为调整",
       "originalText": "行为调整",
       "fontSize": 30,
@@ -1193,12 +1281,15 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aX",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-035",
       "type": "text",
-      "x": 478.0,
+      "x": 478,
       "y": 504,
       "width": 650,
       "height": 32.5,
@@ -1211,16 +1302,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17035,
-      "version": 1,
-      "versionNonce": 18035,
+      "version": 2,
+      "versionNonce": 1155315365,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-behavior"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "核对：规则变化是否符合需求",
       "originalText": "核对：规则变化是否符合需求",
       "fontSize": 26,
@@ -1229,7 +1320,10 @@
       "textAlign": "right",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aY",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-036",
@@ -1247,14 +1341,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17036,
-      "version": 1,
-      "versionNonce": 18036,
+      "version": 2,
+      "versionNonce": 225129003,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "原来只接受",
       "originalText": "原来只接受",
       "fontSize": 26,
@@ -1263,7 +1357,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aZ",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-037",
@@ -1281,14 +1378,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17037,
-      "version": 1,
-      "versionNonce": 18037,
+      "version": 2,
+      "versionNonce": 934844933,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "修改后也接受小写",
       "originalText": "修改后也接受小写",
       "fontSize": 26,
@@ -1297,7 +1394,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aa",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-038",
@@ -1315,20 +1415,22 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17038,
-      "version": 1,
-      "versionNonce": 18038,
+      "version": 2,
+      "versionNonce": 825865419,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-input-before"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "ab",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-039",
@@ -1346,25 +1448,27 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17039,
-      "version": 1,
-      "versionNonce": 18039,
+      "version": 2,
+      "versionNonce": 1610682725,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-input-after"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "roundness": {
         "type": 3,
         "value": 6
-      }
+      },
+      "index": "ac",
+      "frameId": null
     },
     {
       "id": "refactoring-boundary-040",
       "type": "text",
-      "x": 88.0,
+      "x": 88,
       "y": 631,
       "width": 208,
       "height": 37.5,
@@ -1377,16 +1481,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17040,
-      "version": 1,
-      "versionNonce": 18040,
+      "version": 2,
+      "versionNonce": 1767826283,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-input-before"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "Monday",
       "originalText": "Monday",
       "fontSize": 30,
@@ -1395,12 +1499,15 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "ad",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-041",
       "type": "text",
-      "x": 456.0,
+      "x": 456,
       "y": 605,
       "width": 304,
       "height": 37.5,
@@ -1413,16 +1520,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17041,
-      "version": 1,
-      "versionNonce": 18041,
+      "version": 2,
+      "versionNonce": 184786117,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-input-after"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "Monday",
       "originalText": "Monday",
       "fontSize": 30,
@@ -1431,12 +1538,15 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "ae",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-042",
       "type": "text",
-      "x": 456.0,
+      "x": 456,
       "y": 653,
       "width": 304,
       "height": 37.5,
@@ -1449,16 +1559,16 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17042,
-      "version": 1,
-      "versionNonce": 18042,
+      "version": 2,
+      "versionNonce": 1311063563,
       "isDeleted": false,
       "groupIds": [
         "refactoring-boundary-input-after"
       ],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "monday",
       "originalText": "monday",
       "fontSize": 30,
@@ -1467,7 +1577,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "af",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-043",
@@ -1485,14 +1598,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17043,
-      "version": 1,
-      "versionNonce": 18043,
+      "version": 2,
+      "versionNonce": 6143013,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -1508,7 +1621,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "ag",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-044",
@@ -1526,14 +1642,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17044,
-      "version": 1,
-      "versionNonce": 18044,
+      "version": 2,
+      "versionNonce": 176637099,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -1549,7 +1665,10 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "lastCommittedPoint": null,
-      "elbowed": false
+      "elbowed": false,
+      "index": "ah",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-045",
@@ -1557,7 +1676,7 @@
       "x": 888,
       "y": 604,
       "width": 240,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#b45309",
       "backgroundColor": "transparent",
@@ -1567,14 +1686,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17045,
-      "version": 1,
-      "versionNonce": 18045,
+      "version": 2,
+      "versionNonce": 939323269,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "可接受输入",
       "originalText": "可接受输入",
       "fontSize": 28,
@@ -1583,7 +1702,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "ai",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-046",
@@ -1601,14 +1723,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17046,
-      "version": 1,
-      "versionNonce": 18046,
+      "version": 2,
+      "versionNonce": 103774027,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "范围扩大了",
       "originalText": "范围扩大了",
       "fontSize": 30,
@@ -1617,7 +1739,10 @@
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "aj",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-047",
@@ -1635,14 +1760,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17047,
-      "version": 1,
-      "versionNonce": 18047,
+      "version": 2,
+      "versionNonce": 1344190181,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "points": [
         [
           0,
@@ -1657,15 +1782,18 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "lastCommittedPoint": null
+      "lastCommittedPoint": null,
+      "index": "ak",
+      "frameId": null,
+      "roundness": null
     },
     {
       "id": "refactoring-boundary-048",
       "type": "text",
-      "x": 48.0,
+      "x": 48,
       "y": 772,
       "width": 1104,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#1f2937",
       "backgroundColor": "transparent",
@@ -1675,14 +1803,14 @@
       "roughness": 0,
       "opacity": 100,
       "seed": 17048,
-      "version": 1,
-      "versionNonce": 18048,
+      "version": 2,
+      "versionNonce": 1333286379,
       "isDeleted": false,
       "groupIds": [],
-      "boundElements": null,
+      "boundElements": [],
       "link": null,
       "locked": false,
-      "updated": 1,
+      "updated": 1790979802933,
       "text": "整理结构与调整规则，分别说明、分别核对。",
       "originalText": "整理结构与调整规则，分别说明、分别核对。",
       "fontSize": 28,
@@ -1691,7 +1819,10 @@
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "autoResize": false
+      "autoResize": false,
+      "index": "al",
+      "frameId": null,
+      "roundness": null
     }
   ],
   "appState": {

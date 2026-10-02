@@ -1,0 +1,39 @@
+# 需要登录态的信息源，跑一次之后长期可用
+#
+# 启动：  docker compose -f scripts/docker-compose.channels.yml up -d werss
+# 公众号：http://localhost:8001 → 扫码授权 → 添加订阅（粘贴公众号名称或文章链接）
+# 拿源 id：订阅列表里每个源对应一个 feed id，填进 scripts/fresh-sources.json 的公众号条目
+#
+# 2026-10-03：wewe-rss 已弃用。它依赖的第三方微信读书网关 weread.111965.xyz 返回 502，
+# 且项目代码自 2024-12 停更，无法再添加读书账号。改用 WeRSS（rachelos/we-mp-rss），
+# 自带微信扫码授权，默认 SQLite，不依赖外部中转服务。
+
+services:
+  werss:
+    image: ghcr.io/rachelos/we-mp-rss:latest
+    container_name: werss
+    ports:
+      - "8001:8001"
+    volumes:
+      - werss-data:/app/data
+    environment:
+      USERNAME: admin
+      PASSWORD: fresh2026
+      SECRET_KEY: fresh2026-secret
+      RSS_FULL_CONTEXT: "True"
+      RSS_LOCAL: "True"
+      ENABLE_JOB: "True"
+      TZ: Asia/Shanghai
+
+  rsshub:
+    image: diygod/rsshub:chromium-bundled
+    ports:
+      - "1200:1200"
+    environment:
+      NODE_ENV: production
+      CACHE_EXPIRE: 3600
+      XIAOHONGSHU_COOKIE: ${XIAOHONGSHU_COOKIE:-}
+      TZ: Asia/Shanghai
+
+volumes:
+  werss-data:

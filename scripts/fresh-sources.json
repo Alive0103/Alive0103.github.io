@@ -1,0 +1,36 @@
+{
+  "env": {
+    "rsshub": "http://localhost:1200",
+    "wemp": "http://localhost:8001",
+    "FETCH_TIMEOUT": "15000"
+  },
+  "sources": [
+    { "id": "arxiv-cl", "name": "arXiv cs.CL", "tag": "Agent", "type": "rss", "limit": 12, "url": "http://export.arxiv.org/rss/cs.CL" },
+    { "id": "arxiv-ai", "name": "arXiv cs.AI", "tag": "Agent", "type": "rss", "limit": 12, "url": "http://export.arxiv.org/rss/cs.AI" },
+    { "id": "arxiv-db", "name": "arXiv cs.DB", "tag": "后端", "type": "rss", "limit": 8, "url": "http://export.arxiv.org/rss/cs.DB" },
+    { "id": "openai", "name": "OpenAI Blog", "tag": "Agent", "type": "rss", "limit": 10, "url": "https://openai.com/blog/rss.xml" },
+    { "id": "deepmind", "name": "Google DeepMind", "tag": "Agent", "type": "rss", "limit": 10, "url": "https://deepmind.google/blog/rss.xml" },
+    { "id": "cloudflare", "name": "Cloudflare Blog", "tag": "后端", "type": "rss", "limit": 10, "url": "https://blog.cloudflare.com/rss/" },
+    { "id": "bytebytego", "name": "ByteByteGo", "tag": "后端", "type": "rss", "limit": 8, "url": "https://blog.bytebytego.com/feed" },
+    { "id": "infoq-cn", "name": "InfoQ 中国", "tag": "后端", "type": "rss", "limit": 12, "url": "https://www.infoq.cn/feed" },
+    { "id": "jiqizhixin", "name": "机器之心", "tag": "Agent", "type": "rss", "limit": 12, "url": "https://www.jiqizhixin.com/rss" },
+    { "id": "36kr", "name": "36 氪", "tag": "行业", "type": "rss", "limit": 10, "url": "https://36kr.com/feed" },
+    { "id": "juejin-backend", "name": "掘金 · 后端榜", "tag": "后端", "type": "rss", "limit": 12, "url": "https://decemberpei.cyou/rssbox/juejin_hot-6809637769959178254.xml" },
+    { "id": "juejin-ai", "name": "掘金 · 人工智能榜", "tag": "Agent", "type": "rss", "limit": 12, "url": "https://decemberpei.cyou/rssbox/juejin_hot-6809637773935378440.xml" },
+
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending",
+      "tag": "后端",
+      "type": "html",
+      "limit": 12,
+      "url": "https://github.com/trending?since=daily",
+      "pattern": "<h2 class=\"h3 lh-condensed\">[\\s\\S]*?href=\"/([^\"]+)\"[^>]*>[\\s\\S]*?</svg>([\\s\\S]*?)</a>",
+      "base": "https://github.com/"
+    },
+
+    { "id": "wechat-datawhale", "name": "微信公众号 · Datawhale", "tag": "Agent", "type": "rss", "limit": 10, "enabled": false, "url": "${wemp}/rss/${DATAWHALE_FEED_ID}", "note": "启动 WeRSS → 扫码授权 → 添加订阅 → 从订阅列表取 feed id 填入 DATAWHALE_FEED_ID。新增公众号照此复制一条" },
+    { "id": "geektime-latest", "name": "极客时间 · 最新文章", "tag": "后端", "type": "json", "limit": 15, "enabled": false, "list": "data.list", "cookieEnv": "GEEKTIME_COOKIE", "url": "https://time.geekbang.org/serv/v1/column/newarticles?page=1&prev=0&cid=-1&size=20&from=article", "fields": { "title": "article_title", "summary": "article_summary", "urlTemplate": "https://time.geekbang.org/column/article/{article_id}" }, "note": "需极客时间登录 cookie，写入环境变量 GEEKTIME_COOKIE" },
+    { "id": "xhs-user", "name": "小红书 · 指定博主笔记", "tag": "行业", "type": "rss", "limit": 10, "enabled": false, "url": "${rsshub}/xiaohongshu/user/${XHS_USER_ID}/notes", "note": "依赖自建 RSSHub 且注入 XHS_COOKIE；笔记列表也可改用浏览器自动化抓取" }
+  ]
+}

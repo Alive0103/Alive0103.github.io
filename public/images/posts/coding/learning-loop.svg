@@ -10,15 +10,15 @@
 <rect x="64" y="194" width="480" height="210" rx="8" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
 <text x="96" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#976020">01  先作判断</text>
 <text x="96" y="306" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">我预计会发生什么？</text>
-<text x="96" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">先写下自己的答案。</text>
+<text x="96" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">写下预测、依据与未知。</text>
 <rect x="656" y="194" width="480" height="210" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
 <text x="688" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#2F5D92">02  做个实验</text>
 <text x="688" y="306" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">系统实际发生了什么？</text>
 <text x="688" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">借助 AI 查代码、搭场景。</text>
 <rect x="656" y="488" width="480" height="210" rx="8" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
 <text x="688" y="540" font-size="32" font-weight="600" text-anchor="start" fill="#326A54">03  对照修正</text>
-<text x="688" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">差别来自哪个前提？</text>
-<text x="688" y="643" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">用实现与日志核对。</text>
+<text x="688" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">结果由哪个机制产生？</text>
+<text x="688" y="643" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">按业务保证核对实际结果。</text>
 <rect x="64" y="488" width="480" height="210" rx="8" fill="#F5F7FA" stroke="#CAD3DF" stroke-width="2"/>
 <text x="96" y="540" font-size="32" font-weight="600" text-anchor="start" fill="#42546B">04  换个条件</text>
 <text x="96" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">并发、超时、重启……</text>

@@ -1,0 +1,67 @@
+# valaxy
+
+valaxy-fuse-list.json
+
+# vite-ssg
+
+.vite-ssg-dist
+.vite-ssg-temp
+
+temp/
+
+# 新鲜事抓取缓存与浏览器登录态
+scripts/.cache/
+
+.DS_Store
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+
+components.d.ts
+
+# env (may contain secrets like VALAXY_ENCRYPT_PASSWORD)
+.env
+.env.*
+
+# valaxy rss
+public/feed.xml
+
+# valaxy rss
+public/atom.xml
+
+# valaxy rss
+public/feed.json
+
+# ===== ↑ 以上同步自 .gitignore（「从 .gitignore 同步」只重写以上部分）=====
+.git/
+.hg/
+.svn/
+bower_components/
+jspm_packages/
+__pycache__/
+site-packages/
+venv/
+coverage/
+htmlcov/
+lcov-report/
+cmakefiles/
+cmake-build-*/
+bazel-*/
+pods/
+deriveddata/
+storybook-static/
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+cdk.out/
+*.egg-info/
+*.dist-info/
+eggs/
+pip-wheel-metadata/
+wheels/
+# ----- ↑ 以上为 ZCode 默认排除规则（自定义规则请写在本行下方，不会被同步/恢复改动）-----
+# 自定义规则写在下方（本行提示可删除）

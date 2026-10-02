@@ -9,6 +9,9 @@ valaxy-fuse-list.json
 
 temp/
 
+# 新鲜事抓取缓存与浏览器登录态
+scripts/.cache/
+
 .DS_Store
 *.local
 dist
@@ -31,3 +34,6 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+
+# 自动化任务运行时状态
+.workbuddy/memory/automations/
