@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1110" viewBox="0 0 1120 1110" role="img" aria-labelledby="title desc">
+<title id="title">ReAct 推进任务，RSI 改进执行系统</title><desc id="desc">上方是任务中的决策、行动、观察循环。下方从当前版本出发生成候选，运行后评价并继承。新版本是否也能增强改进者，需要单独验证。</desc>
+<rect x="0" y="0" width="1120" height="1110" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<text x="48" y="46.900000000000006" font-size="18" text-anchor="start" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">REACT &amp; RSI  /  01</text>
+<text x="48" y="101.80000000000001" font-size="36" text-anchor="start" fill="#172b45" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">一个循环推进任务，另一个循环改进系统</text>
+<text x="48" y="142.15" font-size="23" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">两种循环可以嵌套；它们改变的对象和需要的证据不同。</text>
+<rect x="48" y="174" width="1024" height="330" fill="#f8fafd" stroke="#d4deeb" stroke-width="2"/>
+<text x="72" y="219.4" font-size="28" text-anchor="start" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">任务执行：ReAct</text>
+<rect x="88" y="258" width="238" height="104" fill="#f0f5fc" stroke="#315f9c" stroke-width="2"/>
+<text x="207.0" y="301.3" font-size="26" text-anchor="middle" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">决策</text>
+<text x="207.0" y="335.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">理解目标与当前证据</text>
+<rect x="440" y="258" width="238" height="104" fill="#fff6ea" stroke="#9a652e" stroke-width="2"/>
+<text x="559.0" y="301.3" font-size="26" text-anchor="middle" fill="#9a652e" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">行动</text>
+<text x="559.0" y="335.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">调用工具、查询环境</text>
+<rect x="792" y="258" width="238" height="104" fill="#eef8f2" stroke="#33795f" stroke-width="2"/>
+<text x="911.0" y="301.3" font-size="26" text-anchor="middle" fill="#33795f" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">观察</text>
+<text x="911.0" y="335.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">接收实际执行结果</text>
+<defs><marker id="01-two-loops-16-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 336 310 L 429 310" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-16-head)"/>
+<defs><marker id="01-two-loops-17-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 688 310 L 781 310" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-17-head)"/>
+<defs><marker id="01-two-loops-18-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 911 372 L 911 417 L 207 417 L 207 372" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-18-head)"/>
+<text x="285" y="455.1" font-size="22" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">新观察进入任务历史，影响下一步行动</text>
+<text x="72" y="492.0" font-size="20" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">是否保存经验、更新参数或修改工具，由额外机制决定。</text>
+<text x="48" y="559.15" font-size="23" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">外层评价候选版本时，会调用上面的任务执行过程。</text>
+<rect x="48" y="588" width="1024" height="500" fill="#fcfaf7" stroke="#e2d7c7" stroke-width="2"/>
+<text x="72" y="635.4" font-size="28" text-anchor="start" fill="#9a652e" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">版本改进：RSI 的讨论范围</text>
+<rect x="88" y="680" width="238" height="110" fill="#f0f5fc" stroke="#315f9c" stroke-width="2"/>
+<text x="207.0" y="723.3" font-size="26" text-anchor="middle" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">当前版本 Aₖ</text>
+<text x="207.0" y="757.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">版本与执行经验</text>
+<rect x="440" y="680" width="238" height="110" fill="#f5f0fb" stroke="#7757a5" stroke-width="2"/>
+<text x="559.0" y="723.3" font-size="26" text-anchor="middle" fill="#7757a5" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">改进器</text>
+<text x="559.0" y="757.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">分析证据、提出变化</text>
+<rect x="792" y="680" width="238" height="110" fill="#f5f0fb" stroke="#7757a5" stroke-width="2"/>
+<text x="911.0" y="723.3" font-size="26" text-anchor="middle" fill="#7757a5" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">候选版本</text>
+<text x="911.0" y="757.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">实现可运行的改动</text>
+<defs><marker id="01-two-loops-33-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 336 735 L 429 735" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-33-head)"/>
+<defs><marker id="01-two-loops-34-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 688 735 L 781 735" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-34-head)"/>
+<defs><marker id="01-two-loops-35-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 911 800 L 911 856" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-35-head)"/>
+<rect x="792" y="867" width="238" height="110" fill="#fff6ea" stroke="#9a652e" stroke-width="2"/>
+<text x="911.0" y="910.3" font-size="26" text-anchor="middle" fill="#9a652e" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">运行候选</text>
+<text x="911.0" y="944.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">相同任务与预算</text>
+<rect x="440" y="867" width="238" height="110" fill="#eef8f2" stroke="#33795f" stroke-width="2"/>
+<text x="559.0" y="910.3" font-size="26" text-anchor="middle" fill="#33795f" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">评价与选择</text>
+<text x="559.0" y="944.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">核对结果与成本</text>
+<rect x="88" y="867" width="238" height="110" fill="#f0f5fc" stroke="#315f9c" stroke-width="2"/>
+<text x="207.0" y="910.3" font-size="26" text-anchor="middle" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">下一版 Aₖ₊₁</text>
+<text x="207.0" y="944.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">采用有效变化</text>
+<defs><marker id="01-two-loops-45-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 782 921 L 689 921" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-45-head)"/>
+<defs><marker id="01-two-loops-46-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 430 921 L 337 921" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-46-head)"/>
+<defs><marker id="01-two-loops-47-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 207 857 L 207 800" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#01-two-loops-47-head)"/>
+<text x="240" y="833.0" font-size="20" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">继承</text>
+<text x="76" y="1032.2" font-size="24" text-anchor="start" fill="#7757a5" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">更强的递归：新版本也参与下一轮改进。</text>
+<text x="76" y="1067.05" font-size="21" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">其改进效率是否提高，需要单独评价；候选失败时可以保留旧版本。</text>
+</svg>

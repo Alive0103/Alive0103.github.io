@@ -1,0 +1,110 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "温铮的小站",
+    "home_page_url": "https://alive0103.github.io/",
+    "feed_url": "https://alive0103.github.io/feed.json",
+    "description": "我于荒颓中睁眼，亦在灰烬里重燃",
+    "icon": "http://wyy-alive-0o0.oss-cn-beijing.aliyuncs.com/avatar.png",
+    "author": {
+        "name": "王越洋",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://alive0103.github.io/posts/tech/ReAct和RSI",
+            "content_html": "<p>一个 Coding Agent 修复了一处错误。它读代码、调用工具、看到报错、调整方案，最后交出了能工作的修改。这已经是一种很有价值的能力，但下一次遇到相似问题时，它可能还会经历同样的弯路。</p>\n<p>如果</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/tech/ReAct和RSI\" target=\"_blank\">https://alive0103.github.io/posts/tech/ReAct和RSI</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/tech/ReAct和RSI",
+            "title": "ReAct 与 RSI：从执行任务到改进自己",
+            "date_modified": "2026-09-28T02:06:00.000Z",
+            "date_published": "2026-09-28T02:06:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/tech/「熵」的流动",
+            "content_html": "<p>最初，我只是想知道：<strong>能不能算出一句话里的信息量，进而判断一次会话的质量？</strong></p>\n<p>背景是一个客服系统。用户提出问题，客服给出回答，有的回答很长，却让人不知道下一步该怎么办；有的只有几句话，就把事情</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/tech/「熵」的流动\" target=\"_blank\">https://alive0103.github.io/posts/tech/「熵」的流动</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/tech/「熵」的流动",
+            "title": "「熵」的流动",
+            "date_modified": "2026-09-28T02:06:00.000Z",
+            "date_published": "2026-09-28T02:06:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/tech/记忆管理场景解析",
+            "content_html": "<p>用户昨天在 App 里反馈商品破损，上传了照片，客服承诺今天给出处理结果。今天他换到网页，只问了一句：</p>\n<blockquote>\n<p>昨天那件事怎么样了？</p>\n</blockquote>\n<p>一个能搜索历史聊天的 Agent，也许能找到“商品破损”。但要把</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/tech/记忆管理场景解析\" target=\"_blank\">https://alive0103.github.io/posts/tech/记忆管理场景解析</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/tech/记忆管理场景解析",
+            "title": "记忆管理场景解析",
+            "date_modified": "2026-09-28T01:48:00.000Z",
+            "date_published": "2026-09-28T01:48:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/tech/规范编码实践",
+            "content_html": "<p>有一种代码，刚写完的时候怎么看都很清楚，过两个月再打开，却要一边翻调用方，一边查数据来源，最后还得问一句：这里为什么要这样处理？</p>\n<p>代码没有变，消失的是写它时脑子里的上下文。</p>\n<p>当时知道这个字段一定</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/tech/规范编码实践\" target=\"_blank\">https://alive0103.github.io/posts/tech/规范编码实践</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/tech/规范编码实践",
+            "title": "规范编码实践",
+            "date_modified": "2026-09-28T01:29:00.000Z",
+            "date_published": "2026-09-28T01:29:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/work/所谓「职业素养」",
+            "content_html": "<p>之前写实习经历时，我写过一句话：</p>\n<blockquote>\n<p>我以前不理解为啥有人会因为工作感到压力大？做不完就加班呗，反正总能做完。</p>\n</blockquote>\n<p>现在再看，还是能理解那时候的自己。刚进入一个陌生的环境，技术不够熟，业务不够懂，经验也谈不上，能拿出来证明自己的东西似乎只有努力。不会可以学，做不完可以晚点走，只要自己再多付出一点，事情总有办法解决。</p>\n<p>这个想法让人安心。它把复杂的问题变成了一件我能够控制的事：继续努力就好了。</p>\n<p>读 Robert C. Martin 的《程序员的职业素养》时，我反复想起这句话。书里有一段经历：他在凌晨三点，为了解决一个定时问题，写出了通过事件分派系统给自身发送消息的代码。当时他觉得这个方案很好，也为自己的投入感到自豪。后来，这个设计让团队不断遇到奇怪的时序问题，大家一边绕着它打补丁，一边继续声称没有时间重写，包袱就这样留了好几年。</p>\n<p>让我在意的是，他记得自己当时那种很专业、很敬业的感觉。</p>\n<p>我们确实可能在最确信自己负责的时候，做出让别人长期承担代价的决定。努力的感受如此真切，结果却未必配合。</p>\n<p>这也是这本书值得读的地方。它把职业素养放进了很多不太体面的时刻：答应了做不到的事，怕别人失望而隐瞒进度，为了按时交付省掉检查，想当救星，最后搞砸。作者没有把自己摆在这些事情之外，我也很难心安理得地把它们当成别人的问题。</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/work/所谓「职业素养」\" target=\"_blank\">https://alive0103.github.io/posts/work/所谓「职业素养」</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/work/所谓「职业素养」",
+            "title": "所谓「职业素养」",
+            "date_modified": "2026-09-28T01:24:00.000Z",
+            "date_published": "2026-09-28T01:24:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/tech/关于coding",
+            "content_html": "<p>AI 把代码写好了，功能跑通了，你再让它解释一遍，好像也都看懂了。</p>\n<p>但过几天遇到类似的问题，换一个条件，你还能判断这段代码会不会出错吗？</p>\n<p>我是 26 届，2025 年 3 月开始实习，现在做 A</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/tech/关于coding\" target=\"_blank\">https://alive0103.github.io/posts/tech/关于coding</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/tech/关于coding",
+            "title": "AI 写完的代码，如何变成你的经验",
+            "date_modified": "2026-09-28T01:23:00.000Z",
+            "date_published": "2026-09-28T01:23:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/things/实习小记",
+            "content_html": "<blockquote>\n<p>以下为本人参加的40场左右面试的面试官和几任mentor，从事职业多为后端开发，工作年限约为10年，主要针对就业环境，职业规划和工作细节展开。希望能给你带来一些思考。</p>\n</blockquote>\n<p>Q：当下后端就业市场的环</p>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/things/实习小记\" target=\"_blank\">https://alive0103.github.io/posts/things/实习小记</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/things/实习小记",
+            "title": "实习小记",
+            "date_modified": "2025-05-04T00:00:00.000Z",
+            "date_published": "2025-05-04T00:00:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠",
+            "content_html": "<blockquote>\n<p>赠尔一缕剑气，愿尔所向披靡。</p>\n</blockquote>\n<p>此文写于本人经历艰难面试，即将正式入职之际，谨以此文纪念我完整的实习生涯，希望这篇文章能帮到正在迷茫焦虑的你。</p>\n<p>大致时间线：</p>\n<ul>\n<li>2024.11 - 2025</li>\n</ul>\n<br/><p>访问 <a href=\"https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠\" target=\"_blank\">https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠</a> 阅读全文。</p>",
+            "url": "https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠",
+            "title": "是啊，我也曾彻夜难眠",
+            "date_modified": "2025-05-04T00:00:00.000Z",
+            "date_published": "2025-05-04T00:00:00.000Z",
+            "author": {
+                "name": "王越洋",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
