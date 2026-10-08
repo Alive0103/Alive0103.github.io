@@ -1,4 +1,6 @@
-# 需要登录态的信息源，跑一次之后长期可用
+# FreshRSS 阅读与公众号采集服务
+# FreshRSS：docker compose -f scripts/docker-compose.channels.yml up -d freshrss
+# 阅读入口：http://localhost:8080；登录信息在 scripts/.cache/freshrss-login.txt
 #
 # 启动：  docker compose -f scripts/docker-compose.channels.yml up -d werss
 # 公众号：http://localhost:8001 → 扫码授权 → 添加订阅（粘贴公众号名称或文章链接）
@@ -9,19 +11,37 @@
 # 自带微信扫码授权，默认 SQLite，不依赖外部中转服务。
 
 services:
+  freshrss:
+    image: freshrss/freshrss:latest
+    container_name: freshrss
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - freshrss-data:/var/www/FreshRSS/data
+      - freshrss-extensions:/var/www/FreshRSS/extensions
+    environment:
+      TZ: Asia/Shanghai
+      CRON_MIN: "13,43"
+
   werss:
     image: ghcr.io/rachelos/we-mp-rss:latest
     container_name: werss
+    command: ["bash", "-c", "python3 /app/patch-werss-weread.py && exec /app/start.sh"]
     ports:
       - "8001:8001"
     volumes:
       - werss-data:/app/data
+      - ./patch-werss-weread.py:/app/patch-werss-weread.py:ro
     environment:
       USERNAME: admin
       PASSWORD: fresh2026
       SECRET_KEY: fresh2026-secret
       RSS_FULL_CONTEXT: "True"
-      RSS_LOCAL: "True"
+      RSS_LOCAL: "False"
+      RSS_BASE_URL: "http://localhost:8001"
+      GATHER.MODEL: weread_mp
+      GATHER.CONTENT: "True"
       ENABLE_JOB: "True"
       TZ: Asia/Shanghai
 
@@ -36,4 +56,6 @@ services:
       TZ: Asia/Shanghai
 
 volumes:
+  freshrss-data:
+  freshrss-extensions:
   werss-data:

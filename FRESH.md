@@ -112,53 +112,41 @@ node scripts/fetch-fresh.mjs openai cloudflare   # 只抓指定源
 - `github.com` 在脚本的网络环境里不可达，GitHub Trending 需要我用浏览器通道单独抓
 - `hnrss.org`、`huggingface.co` 同理不稳定，走 HN 的 Algolia 接口或次日重试
 
-## 九、需登录态的源（已实现，需一次性激活）
+## 九、公众号订阅与 RSS 阅读
 
-运行环境在本机 `scripts/docker-compose.channels.yml`。Docker Desktop 已装好（2026-10-03，`/Applications/Docker.app`），CLI 已加进 `~/.zshrc` 的 PATH：
+2026-10-03 改为 FreshRSS 订阅 Wechat2RSS 免费公众号源。启动：
 
 ```bash
-docker compose -f scripts/docker-compose.channels.yml up -d werss    # 只需公众号
-docker compose -f scripts/docker-compose.channels.yml up -d          # 全部，含 rsshub（首次拉镜像较久）
+docker compose -f scripts/docker-compose.channels.yml up -d freshrss
 ```
 
-| 服务 | 端口 | 用途 |
-| --- | --- | --- |
-| werss | 8001 | WeRSS 微信公众号订阅与 RSS 生成（自带微信授权，SQLite 存储） |
-| rsshub | 1200 | 自建 RSSHub，备用（当前小红书已改走浏览器自动化） |
+打开 <http://localhost:8080>。用户名为 `admin`，密码和聚合 RSS 输出地址保存在本机 `scripts/.cache/freshrss-login.txt`（已忽略，不提交）。
 
-**接入一个新公众号（三步）**
+- FreshRSS 仅监听本机 8080 端口，SQLite 数据与扩展保存在 Docker 卷中。
+- 每小时第 13、43 分钟检查更新；Docker Desktop 和电脑需要保持运行。
+- 在「订阅管理」中添加其他 RSS；「用户查询」里的「Fresh 全部订阅」支持聚合后再输出 RSS。
+- 免费公众号列表：<https://wechat2rss.xlab.app/list/all>。
+- 补充目录：<https://github.com/ginobefun/BestBlogs/blob/main/opml/bestblogs_wechat2rss_opml_all.opml>。
 
-1. 打开 `http://localhost:8001` → 用 compose 里的账号登录（admin / fresh2026）
-2. 扫码授权（微信公众平台 / 微信读书授权，按界面提示）
-3. 添加订阅 → 填公众号名称或粘贴文章链接 → 从订阅列表取 feed id，填进 `fresh-sources.json` 对应条目并把 `enabled` 改为 `true`
+| 公众号 | 领域 | 订阅源 | 验证结果 |
+| --- | --- | --- | --- |
+| Datawhale | Agent | <https://wechat2rss.xlab.app/feed/4d620d988cb21cfeefd2263207221f0dc70df9ff.xml> | 导入 20 篇带正文的文章；最新日期为 2026-09-27，缺少已确认的 2026-10-02 文章，更新及时性尚未通过验证 |
 
-订阅地址格式 `/rss/{feed_id}`。
+FreshRSS 容器抓取此源返回 HTTP 200；本机 Python 请求曾返回 403，不能据此判断源失效。RSS 中原文链接和发布时间正常，聚合输出已验证包含 20 篇文章。
 
-**监控中的公众号**
+2026-10-03 核对新增的 56 个公众号：两个公开目录匹配到 15 个，均返回 HTTP 200、名称匹配的 RSS 和文章正文，已导入「技术公众号」分类。选源优先考虑最新收录日期，同日期优先保留更多文章。字节跳动Seed 最新收录为 2026-08-05，转转技术为 2026-06-02，近期更新完整性待确认；其余 41 个未被这两个目录收录，不代表无法订阅。未将「腾讯技术」视为「腾讯技术工程」，也未自动改写「Al寒武纪」。
 
-| 公众号 | 领域 | 状态 |
-| --- | --- | --- |
-| Datawhale | Agent | WeRSS 待启动完成，扫码 + 添加订阅后填 feed id |
+本机逐项结果：`scripts/.cache/wechat-subscription-audit.html`；机器可读结果：`scripts/.cache/wechat-audit.json`；已验证的导入文件：`scripts/.cache/wechat-verified.opml`。最新收录日期只是源中现有文章的日期，不能证明此源没有漏掉更新。完整覆盖需要补充能自行添加公众号的采集服务，FreshRSS 继续负责阅读和 RSS 输出。
 
-> 2026-10-03 换掉 wewe-rss 的原因：它依赖第三方微信读书网关 `weread.111965.xyz`，实测返回 502，导致添加读书账号必定失败；且项目代码自 2024-12（v2.6.1）起停更，无修复希望。WeRSS（rachelos/we-mp-rss）自带微信授权、不依赖外部中转，2026 年仍在维护。 |
+原 WeRSS 服务仍保留在 8001 端口供排查，未迁移或删除其数据。微信读书授权不能用于它的公众平台搜索；实测 Datawhale 的微信读书通道返回另一篇文章且正文为空，因此暂不作为主订阅源。`fresh-sources.json` 中博客的公众号占位仍禁用，避免把延迟源自动用于当日资讯。
 
-**接入一个新公众号（三步）**
+同日补充：已用未被公开目录收录的 JavaGuide 跑通自采验证。公众号 ID 为 `MP_WXS_3869046948`，微信读书封面接口返回正确账号与一篇文章；正文接口获取约 2300 字正文。原文发布时间为 2026-09-30 14:25:10，原文链接为 <https://mp.weixin.qq.com/s/3A7am-SiCFxiaw-8XhFRLQ>。
 
-1. 打开 `http://localhost:4000` → 账号管理 → 添加读书账号 → 微信扫码（不要勾「24 小时后自动退出」）
-2. 公众号源 → 添加 → 粘贴该公众号任意一篇文章的分享链接
-3. `curl http://localhost:4000/feeds` 拿到 id（形如 `MP_WXS_xxx`），填进 `fresh-sources.json` 对应条目并把 `enabled` 改为 `true`
-
-单个订阅地址格式：`/feeds/{id}.rss`，支持 `?update=true` 强制刷新、`?title_include=Agent|LLM` 关键词过滤、`/feeds/all.rss` 聚合全部。
-
-**监控中的公众号**
-
-| 公众号 | 领域 | 状态 |
-| --- | --- | --- |
-| Datawhale | Agent | wewe-rss 已运行（AuthCode：fresh2026），待扫码 + 添加源后填 id |
-
-> wewe-rss 状态说明：代码自 2024-12 起基本停更（最后版本 2.6.1，2026-03 只更新过 README）。能用先用；若微信读书接口失效或账号被风控，备选方案是 rachelos/we-mp-rss（Python + FastAPI，2026 年仍活跃，默认 SQLite，端口 8001，`docker run -d -p 8001:8001 -v $(pwd)/data/werss:/app/data ghcr.io/rachelos/we-mp-rss:latest`）。
-
-新增公众号时照上面的格式复制一条配置，并在本表补一行。
+- 本机 RSS：<http://localhost:8001/feed/MP_WXS_3869046948.rss?limit=20>。
+- FreshRSS 容器使用 `http://host.docker.internal:8001/feed/MP_WXS_3869046948.rss?limit=20`，内网访问白名单仅放行 `host.docker.internal:8001`；分类为「自行采集验证」。使用 `.rss` 扩展名可避免 WeRSS 1.5.3 的 `.xml` 响应类型错误。
+- WeRSS 使用 `weread_mp` 模式并采集正文，RSS 指向微信原文；JavaGuide 每小时第 7、37 分钟检查，FreshRSS 在第 13、43 分钟读取。任务未配置消息发送地址。
+- `patch-werss-weread.py` 在容器启动时修正 1.5.3 的原文时间解析、空正文重试和无发送地址的纯采集任务。
+- 限制：实测文章列表接口返回 `-2041`，当前只使用封面接口返回的单篇文章。此接口的文章可能滞后，不能保证每次返回最新文章，也不能回补列表；初次采集成功不代表完整持续追踪已经验证。
 
 **极客时间**：配置条目已就绪（`geektime-latest`），把登录 cookie 写进环境变量 `GEEKTIME_COOKIE` 后启用。
 

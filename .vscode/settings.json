@@ -1,4 +1,5 @@
 {
+  "git.autofetch": false,
   "cSpell.words": ["valaxy", "valaxyjs"],
   "i18n-ally.sourceLanguage": "en",
   "i18n-ally.keystyle": "nested",

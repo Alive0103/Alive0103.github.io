@@ -12,9 +12,7 @@ categories: 技术
 
 我想沿着三个问题展开：**改了什么？由谁验证？下一轮是否继承改动？** 再追问更关键的一步：继承改动的新系统，是否也更擅长推动下一轮改进？
 
-> 资料检索截至 **2026 年 10 月 3 日**，优先使用原始论文与研究机构说明。本文区分研究结果、工程抽象与个人判断；示例和公式用于解释机制，不代表实测系统。配图为本文原创，文末提供 Excalidraw 可编辑源文件。
-
-## 一、先说清楚：ReAct 与 RSI 不在同一层
+## 一、ReAct 与 RSI 不在同一层
 
 ReAct 是一种组织 Agent 推理与行动的方法。RSI 是关于系统如何改进自身，以及这种改进如何继续推动后续改进的研究问题。两者可以出现在同一个系统中。
 
@@ -448,8 +446,6 @@ $$
 10. [The Economics of Recursive Self-Improvement](https://arxiv.org/abs/2609.15802)，2026 年 9 月预印本。
 11. [AI4AI-Bench](https://arxiv.org/abs/2608.20318)，2026 年 8 月预印本。
 12. [AI models collapse when trained on recursively generated data](https://www.nature.com/articles/s41586-024-07566-y)，Nature，2024。
-
-正文配图使用 SVG，下面的源文件可在 [Excalidraw](https://excalidraw.com/) 中打开编辑：
 
 - [图 1：ReAct 与 RSI 的两层循环](/images/posts/react-rsi/01-two-loops.excalidraw)
 - [图 2：自我改进系统的参考结构](/images/posts/react-rsi/02-improvement-system.excalidraw)
