@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">让经验进入个人，也进入系统</title>
+<desc id="desc">实践证据同时进入个人判断和系统约束，二者共同支撑下一次交付。个人知道如何寻找证据，系统通过契约和约束保留认识；前提变化时两者都需要复查。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#677A90"/></marker></defs>
+<rect width="1200" height="820" fill="#FFFFFF"/>
+<g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="64" y="83" font-size="42" font-weight="600" text-anchor="start" fill="#172B4D">让经验进入个人，也进入系统</text>
+<text x="64" y="132" font-size="28" font-weight="400" text-anchor="start" fill="#526277">同一次实践，可以同时留下两类成果。</text>
+<path d="M 64 158 L 1136 158" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="340" y="184" width="520" height="116" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="600" y="229" font-size="32" font-weight="600" text-anchor="middle" fill="#2F5D92">实践中的观察与判断</text>
+<text x="600" y="275" font-size="28" font-weight="400" text-anchor="middle" fill="#172B4D">预测 · 实际结果 · 前提与限制</text>
+<path d="M 600 300 L 600 326 L 304 326 L 304 347" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 600 326 L 896 326 L 896 347" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="64" y="350" width="480" height="200" rx="8" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
+<text x="96" y="402" font-size="32" font-weight="600" text-anchor="start" fill="#326A54">个人判断</text>
+<text x="96" y="462" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">下次知道主动检查什么</text>
+<text x="96" y="505" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">能够解释判断依据与限制</text>
+<rect x="656" y="350" width="480" height="200" rx="8" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="688" y="402" font-size="32" font-weight="600" text-anchor="start" fill="#976020">系统约束</text>
+<text x="688" y="462" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">接口约定、实现与检查</text>
+<text x="688" y="505" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">保留依据、前提与复查条件</text>
+<path d="M 304 550 L 304 591 L 600 591" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 896 550 L 896 591 L 600 591 L 600 621" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="340" y="624" width="520" height="108" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="600" y="668" font-size="32" font-weight="600" text-anchor="middle" fill="#2F5D92">下一次交付</text>
+<text x="600" y="711" font-size="28" font-weight="400" text-anchor="middle" fill="#172B4D">更早发现问题，更清楚地取舍</text>
+<text x="600" y="786" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">前提变化时，个人认识与系统约束都需要重新核对。</text>
+</g>
+</svg>

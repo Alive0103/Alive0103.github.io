@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1130" viewBox="0 0 1200 1130" role="img" aria-labelledby="title desc">
+<title id="title">跨渠道续接，怎样保持事实连续</title>
+<desc id="desc">四个阶段分别是首次反馈、网页查询、退款提交、结果确认。每个阶段区分实际事件、记录内容和服务动作，避免把承诺和提交误当作完成。</desc>
+<rect x="0" y="0" width="1200" height="1130" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="50" y="48" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#315f9c">AGENT MEMORY  /  05</text>
+<text x="50" y="108" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="600" fill="#172b45">跨渠道续接，怎样保持事实连续</text>
+<text x="50" y="149" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">虚构案例：订单 O-1048 / 工单 case_92 / 10 月 1—2 日</text>
+<text x="70" y="198" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="600" fill="#52657a">阶段</text>
+<text x="290" y="198" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="600" fill="#52657a">实际发生</text>
+<text x="655" y="198" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="600" fill="#52657a">记录与下一步</text>
+<rect x="50" y="230" width="1100" height="160" rx="10" fill="#f8fafc" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="245" width="4" height="130" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="70" y="286" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="600" fill="#315f9c">01  首次反馈</text>
+<text x="70" y="328" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="400" fill="#52657a">10 月 1 日 · App</text>
+<text x="290" y="276" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">用户上传破损照片</text>
+<text x="290" y="316" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">要求本工单文字联系</text>
+<text x="290" y="356" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">承诺次日反馈审核结果</text>
+<text x="655" y="276" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">保存凭证引用与工单约束</text>
+<text x="655" y="316" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">承诺带负责人、截止时间</text>
+<text x="655" y="356" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">当前状态：等待审核</text>
+<polyline points="143,390 143,420" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="148.00,409.00 143.00,420.00 138.00,409.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="50" y="420" width="1100" height="160" rx="10" fill="#f8fafc" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="435" width="4" height="130" rx="0" fill="#247367" stroke="#247367" stroke-width="1.5"/>
+<text x="70" y="476" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="600" fill="#247367">02  进度查询</text>
+<text x="70" y="518" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="400" fill="#52657a">10 月 2 日 · 网页</text>
+<text x="290" y="466" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">身份确认后定位同一工单</text>
+<text x="290" y="506" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">用户问“昨天那件事”</text>
+<text x="290" y="546" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">本次查询：仍在审核</text>
+<text x="655" y="466" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">不再要求重复提供照片</text>
+<text x="655" y="506" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">说明当前进度与既有承诺</text>
+<text x="655" y="546" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">尚未执行的动作不说已完成</text>
+<polyline points="143,580 143,610" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="148.00,599.00 143.00,610.00 138.00,599.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="50" y="610" width="1100" height="160" rx="10" fill="#f8fafc" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="625" width="4" height="130" rx="0" fill="#9a6727" stroke="#9a6727" stroke-width="1.5"/>
+<text x="70" y="666" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="600" fill="#9a6727">03  退款提交</text>
+<text x="70" y="708" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="400" fill="#52657a">10 月 2 日 · 业务接口</text>
+<text x="290" y="656" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">审核通过并满足执行条件</text>
+<text x="290" y="696" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">提交退款，返回请求标识</text>
+<text x="290" y="736" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">业务系统仍在处理中</text>
+<text x="655" y="656" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">记录：退款已提交</text>
+<text x="655" y="696" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">保留请求标识供结果核查</text>
+<text x="655" y="736" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">不提前写成“退款成功”</text>
+<polyline points="143,770 143,800" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="148.00,789.00 143.00,800.00 138.00,789.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="50" y="800" width="1100" height="160" rx="10" fill="#f8fafc" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="815" width="4" height="130" rx="0" fill="#6d5890" stroke="#6d5890" stroke-width="1.5"/>
+<text x="70" y="856" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="600" fill="#6d5890">04  结果确认</text>
+<text x="70" y="898" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="400" fill="#52657a">10 月 2 日 · 回执</text>
+<text x="290" y="846" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">支付系统确认退款成功</text>
+<text x="290" y="886" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">按流程向用户反馈结果</text>
+<text x="290" y="926" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#172b45">继续确认问题解决情况</text>
+<text x="655" y="846" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">分别更新退款与承诺状态</text>
+<text x="655" y="886" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">结案后整理处理经历</text>
+<text x="655" y="926" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">临时约束退出活跃记忆</text>
+<rect x="50" y="1010" width="1100" height="40" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="50" y="1035" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="600" fill="#247367">同一个业务问题跨越多次会话；新的业务证据持续更新当前视图。</text>
+<polyline points="50,1054 1150,1054" fill="none" stroke="#c8d3df" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="1096" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#52657a">对客承诺、执行状态、用户问题是否解决，分别跟踪各自的证据。</text>
+</svg>

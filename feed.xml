@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>温铮的小站</title>
+        <link>https://alive0103.github.io/</link>
+        <description>我于荒颓中睁眼，亦在灰烬里重燃</description>
+        <lastBuildDate>Thu, 08 Oct 2026 17:29:08 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>温铮的小站</title>
+            <url>http://wyy-alive-0o0.oss-cn-beijing.aliyuncs.com/avatar.png</url>
+            <link>https://alive0103.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © 王越洋</copyright>
+        <atom:link href="https://alive0103.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ReAct 与 RSI：从执行任务到改进自己]]></title>
+            <link>https://alive0103.github.io/posts/tech/ReAct和RSI</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/tech/ReAct和RSI</guid>
+            <pubDate>Mon, 28 Sep 2026 02:06:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>一个 Coding Agent 修复了一处错误。它读代码、调用工具、看到报错、调整方案，最后交出了能工作的修改。这已经是一种很有价值的能力，但下一次遇到相似问题时，它可能还会经历同样的弯路。</p>
+<p>如果</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/ReAct和RSI" target="_blank">https://alive0103.github.io/posts/tech/ReAct和RSI</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+        <item>
+            <title><![CDATA[「熵」的流动]]></title>
+            <link>https://alive0103.github.io/posts/tech/「熵」的流动</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/tech/「熵」的流动</guid>
+            <pubDate>Mon, 28 Sep 2026 02:06:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>能否计算一句话里的信息量，进而判断一次会话的质量？</strong></p>
+<p>用户提出问题，客服给出回答，有的回答很长，却让人不知道下一步该怎么办；有的只有几句话，就把事情说清楚了。如果能用一个量把这种区别表示出来</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/「熵」的流动" target="_blank">https://alive0103.github.io/posts/tech/「熵」的流动</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+        <item>
+            <title><![CDATA[智能化与接入智能]]></title>
+            <link>https://alive0103.github.io/posts/tech/智能化与接入智能</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/tech/智能化与接入智能</guid>
+            <pubDate>Mon, 28 Sep 2026 01:33:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/智能化与接入智能" target="_blank">https://alive0103.github.io/posts/tech/智能化与接入智能</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+        <item>
+            <title><![CDATA[本站复刻指南]]></title>
+            <link>https://alive0103.github.io/posts/tech/本站复刻指南</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/tech/本站复刻指南</guid>
+            <pubDate>Mon, 28 Sep 2026 01:30:00 GMT</pubDate>
+            <description><![CDATA[从本地启动到上线维护，介绍本站的基础配置、个人主页、项目展示、随笔、书架、相册与 Markdown 写作方法。]]></description>
+            <content:encoded><![CDATA[<p>我希望这个小站能装下的东西，比一份文章列表多一点。</p>
+<p>有些内容适合认真写成博客，有些只是还没想清楚的随笔；读过的书想留一份笔记，做过的项目想有个展示的地方，生活里的照片也值得好好收起来。于是，本站慢慢长成了现在的样子。</p>
+<p>这篇文章从实际源码出发，介绍如何把它复刻成你自己的小站：先让网站运行起来，再替换个人信息，接着理解每个栏目如何维护，最后完成部署。</p>
+<p><strong>只想开始写作，主要改配置和 Markdown 就够了；想调整交互和版式，再往 Vue 组件里走。</strong> 不需要一开始就把所有前端知识学完。</p>
+<p>本文以写作时仓库中的 <strong>Valaxy 0.28.11 + valaxy-theme-yun 0.28.11</strong> 为基础。文中的文件名都相对于仓库根目录；示例中的 <code>YOUR_USERNAME</code>、<code>你的名字</code>、图片路径和服务地址，都需要换成自己的内容。</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/本站复刻指南" target="_blank">https://alive0103.github.io/posts/tech/本站复刻指南</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于AI Coding]]></title>
+            <link>https://alive0103.github.io/posts/tech/关于coding</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/tech/关于coding</guid>
+            <pubDate>Mon, 28 Sep 2026 01:23:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>21 年高考改革， 22 年 大类分流， gpt 问世，23 年大模型爆发，24 年大规模应用，26 年进入 agent 元年，22 级的我们似乎永远在摸着石头过河。</p>
+<p>但无疑，我们是幸运的，从</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/关于coding" target="_blank">https://alive0103.github.io/posts/tech/关于coding</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+        <item>
+            <title><![CDATA[实习小记]]></title>
+            <link>https://alive0103.github.io/posts/things/实习小记</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/things/实习小记</guid>
+            <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>以下为本人参加的40场左右面试的面试官和几任mentor，从事职业多为后端开发，工作年限约为10年，主要针对就业环境，职业规划和工作细节展开。希望能给你带来一些思考。</p>
+</blockquote>
+<p>Q：当下后端就业市场的环</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/things/实习小记" target="_blank">https://alive0103.github.io/posts/things/实习小记</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+        <item>
+            <title><![CDATA[是啊，我也曾彻夜难眠]]></title>
+            <link>https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠</link>
+            <guid isPermaLink="false">https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠</guid>
+            <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>赠尔一缕剑气，愿尔所向披靡。</p>
+</blockquote>
+<p>此文写于本人经历艰难面试，即将正式入职之际，谨以此文纪念我完整的实习生涯，希望这篇文章能帮到正在迷茫焦虑的你。</p>
+<p>大致时间线：</p>
+<ul>
+<li>2024.11 - 2025</li>
+</ul>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠" target="_blank">https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠</a> 阅读全文。</p>]]></content:encoded>
+            <author>972477867@qq.com (王越洋)</author>
+        </item>
+    </channel>
+</rss>

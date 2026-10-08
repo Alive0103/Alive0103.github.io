@@ -1,0 +1,1 @@
+import{$ as e,Q as t,Y as n,lt as r,st as i}from"./theme.CggY7Yw1.js";import{o as a}from"./index3.BB6TVn2w.js";var o=t({defaults:{"@type":`Course`},resolve(e,t){return e.provider=i(e.provider,t,a,{root:!0}),e},resolveRootNode(t,{find:i}){let a=i(n);return a&&r(t,`provider`,e(a)),t}});export{o as courseResolver};

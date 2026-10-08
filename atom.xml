@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://alive0103.github.io/</id>
+    <title>温铮的小站</title>
+    <updated>2026-10-08T17:29:08.677Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>王越洋</name>
+        <email>972477867@qq.com</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://alive0103.github.io/"/>
+    <link rel="self" href="https://alive0103.github.io/atom.xml"/>
+    <subtitle>我于荒颓中睁眼，亦在灰烬里重燃</subtitle>
+    <logo>http://wyy-alive-0o0.oss-cn-beijing.aliyuncs.com/avatar.png</logo>
+    <icon>https://alive0103.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © 王越洋</rights>
+    <entry>
+        <title type="html"><![CDATA[ReAct 与 RSI：从执行任务到改进自己]]></title>
+        <id>https://alive0103.github.io/posts/tech/ReAct和RSI</id>
+        <link href="https://alive0103.github.io/posts/tech/ReAct和RSI"/>
+        <updated>2026-09-28T02:06:00.000Z</updated>
+        <content type="html"><![CDATA[<p>一个 Coding Agent 修复了一处错误。它读代码、调用工具、看到报错、调整方案，最后交出了能工作的修改。这已经是一种很有价值的能力，但下一次遇到相似问题时，它可能还会经历同样的弯路。</p>
+<p>如果</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/ReAct和RSI" target="_blank">https://alive0103.github.io/posts/tech/ReAct和RSI</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-09-28T02:06:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「熵」的流动]]></title>
+        <id>https://alive0103.github.io/posts/tech/「熵」的流动</id>
+        <link href="https://alive0103.github.io/posts/tech/「熵」的流动"/>
+        <updated>2026-09-28T02:06:00.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>能否计算一句话里的信息量，进而判断一次会话的质量？</strong></p>
+<p>用户提出问题，客服给出回答，有的回答很长，却让人不知道下一步该怎么办；有的只有几句话，就把事情说清楚了。如果能用一个量把这种区别表示出来</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/「熵」的流动" target="_blank">https://alive0103.github.io/posts/tech/「熵」的流动</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-09-28T02:06:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[智能化与接入智能]]></title>
+        <id>https://alive0103.github.io/posts/tech/智能化与接入智能</id>
+        <link href="https://alive0103.github.io/posts/tech/智能化与接入智能"/>
+        <updated>2026-09-28T01:33:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/智能化与接入智能" target="_blank">https://alive0103.github.io/posts/tech/智能化与接入智能</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-09-28T01:33:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本站复刻指南]]></title>
+        <id>https://alive0103.github.io/posts/tech/本站复刻指南</id>
+        <link href="https://alive0103.github.io/posts/tech/本站复刻指南"/>
+        <updated>2026-09-28T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[从本地启动到上线维护，介绍本站的基础配置、个人主页、项目展示、随笔、书架、相册与 Markdown 写作方法。]]></summary>
+        <content type="html"><![CDATA[<p>我希望这个小站能装下的东西，比一份文章列表多一点。</p>
+<p>有些内容适合认真写成博客，有些只是还没想清楚的随笔；读过的书想留一份笔记，做过的项目想有个展示的地方，生活里的照片也值得好好收起来。于是，本站慢慢长成了现在的样子。</p>
+<p>这篇文章从实际源码出发，介绍如何把它复刻成你自己的小站：先让网站运行起来，再替换个人信息，接着理解每个栏目如何维护，最后完成部署。</p>
+<p><strong>只想开始写作，主要改配置和 Markdown 就够了；想调整交互和版式，再往 Vue 组件里走。</strong> 不需要一开始就把所有前端知识学完。</p>
+<p>本文以写作时仓库中的 <strong>Valaxy 0.28.11 + valaxy-theme-yun 0.28.11</strong> 为基础。文中的文件名都相对于仓库根目录；示例中的 <code>YOUR_USERNAME</code>、<code>你的名字</code>、图片路径和服务地址，都需要换成自己的内容。</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/本站复刻指南" target="_blank">https://alive0103.github.io/posts/tech/本站复刻指南</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-09-28T01:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于AI Coding]]></title>
+        <id>https://alive0103.github.io/posts/tech/关于coding</id>
+        <link href="https://alive0103.github.io/posts/tech/关于coding"/>
+        <updated>2026-09-28T01:23:00.000Z</updated>
+        <content type="html"><![CDATA[<p>21 年高考改革， 22 年 大类分流， gpt 问世，23 年大模型爆发，24 年大规模应用，26 年进入 agent 元年，22 级的我们似乎永远在摸着石头过河。</p>
+<p>但无疑，我们是幸运的，从</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/tech/关于coding" target="_blank">https://alive0103.github.io/posts/tech/关于coding</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-09-28T01:23:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实习小记]]></title>
+        <id>https://alive0103.github.io/posts/things/实习小记</id>
+        <link href="https://alive0103.github.io/posts/things/实习小记"/>
+        <updated>2025-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>以下为本人参加的40场左右面试的面试官和几任mentor，从事职业多为后端开发，工作年限约为10年，主要针对就业环境，职业规划和工作细节展开。希望能给你带来一些思考。</p>
+</blockquote>
+<p>Q：当下后端就业市场的环</p>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/things/实习小记" target="_blank">https://alive0103.github.io/posts/things/实习小记</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-04T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[是啊，我也曾彻夜难眠]]></title>
+        <id>https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠</id>
+        <link href="https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠"/>
+        <updated>2025-05-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>赠尔一缕剑气，愿尔所向披靡。</p>
+</blockquote>
+<p>此文写于本人经历艰难面试，即将正式入职之际，谨以此文纪念我完整的实习生涯，希望这篇文章能帮到正在迷茫焦虑的你。</p>
+<p>大致时间线：</p>
+<ul>
+<li>2024.11 - 2025</li>
+</ul>
+<br/><p>访问 <a href="https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠" target="_blank">https://alive0103.github.io/posts/things/是啊，我也曾彻夜难眠</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>王越洋</name>
+            <email>972477867@qq.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-04T00:00:00.000Z</published>
+    </entry>
+</feed>

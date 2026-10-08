@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+<title id="title">ReAct：单次任务的推理—行动—观察循环</title>
+<desc id="desc">在一次任务内，Agent 交替产生思考、行动和观察，直到输出答案。循环改变的只是上下文，Agent 自身没有变化。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#677A90"/></marker></defs>
+<rect width="720" height="560" fill="#FFFFFF"/>
+<g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="48" y="62" font-size="26" font-weight="600" text-anchor="start" fill="#172B4D">ReAct：单次任务的推理—行动—观察循环</text>
+<text x="48" y="96" font-size="17" font-weight="400" text-anchor="start" fill="#526277">Thought → Action → Observation，直到给出答案。</text>
+<path d="M 48 114 L 672 114" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="170" width="150" height="80" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="135" y="204" font-size="19" font-weight="600" text-anchor="middle" fill="#2F5D92">思考</text>
+<text x="135" y="230" font-size="14" font-weight="400" text-anchor="middle" fill="#526277">Thought</text>
+<rect x="285" y="170" width="150" height="80" rx="8" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="360" y="204" font-size="19" font-weight="600" text-anchor="middle" fill="#976020">行动</text>
+<text x="360" y="230" font-size="14" font-weight="400" text-anchor="middle" fill="#526277">Action</text>
+<rect x="510" y="170" width="150" height="80" rx="8" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
+<text x="585" y="204" font-size="19" font-weight="600" text-anchor="middle" fill="#326A54">观察</text>
+<text x="585" y="230" font-size="14" font-weight="400" text-anchor="middle" fill="#526277">Observation</text>
+<path d="M 210 210 L 283 210" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 435 210 L 508 210" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 585 250 L 585 302 L 135 302 L 135 252" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="360" y="326" font-size="14" font-weight="400" text-anchor="middle" fill="#526277">还不足以回答：带着观察结果，继续下一轮推理</text>
+<path d="M 360 250 L 360 358" fill="none" stroke="#677A90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="270" y="362" width="180" height="64" rx="8" fill="#F7F9FC" stroke="#B0BCCB" stroke-width="1.5"/>
+<text x="360" y="399" font-size="17" font-weight="600" text-anchor="middle" fill="#172B4D">输出答案 Answer</text>
+<text x="360" y="452" font-size="14" font-weight="400" text-anchor="middle" fill="#526277">循环足够多轮、模型判断可以收尾时退出</text>
+<rect x="60" y="474" width="600" height="62" rx="8" fill="#FFFFFF" stroke="#B0BCCB" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="84" y="499" font-size="15" font-weight="600" text-anchor="start" fill="#172B4D">这次循环改变了什么？</text>
+<text x="84" y="522" font-size="14" font-weight="400" text-anchor="start" fill="#526277">上下文变长了；任务结束后，Agent 的权重、代码和提示词都没有变。</text>
+</g>
+</svg>

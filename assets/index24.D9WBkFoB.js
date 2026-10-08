@@ -1,0 +1,1 @@
+import{Q as e}from"./theme.CggY7Yw1.js";var t=e({defaults:{"@type":`OpeningHoursSpecification`,opens:`00:00`,closes:`23:59`}});export{t as openingHoursResolver};

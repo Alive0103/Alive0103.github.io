@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1020" viewBox="0 0 1200 1020" role="img" aria-labelledby="title desc">
+<title id="title">先分清维度，再组合记忆设计</title>
+<desc id="desc">四个并列维度：功能是记什么，范围是给谁用，载体是怎样表达，控制方式是谁来管理。下方用客服沟通约束演示组合。</desc>
+<rect x="0" y="0" width="1200" height="1020" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="50" y="48" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#315f9c">AGENT MEMORY  /  01</text>
+<text x="50" y="108" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="600" fill="#172b45">先分清维度，再组合记忆设计</text>
+<text x="50" y="149" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">功能、范围、载体和控制方式分别回答不同的问题。</text>
+<rect x="50" y="190" width="530" height="280" rx="12" fill="#f1f5fb" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="207" width="4" height="246" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="74" y="240" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">01  功能：记住什么</text>
+<text x="74" y="288" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">事实：明确表达的偏好与知识</text>
+<text x="74" y="326" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">情景：一次经历的条件、动作与结果</text>
+<text x="74" y="364" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">程序：经过验证的做事方法</text>
+<text x="74" y="402" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">工作：当前目标、证据与待办</text>
+<rect x="620" y="190" width="530" height="280" rx="12" fill="#eff7f4" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="621" y="207" width="4" height="246" rx="0" fill="#247367" stroke="#247367" stroke-width="1.5"/>
+<text x="644" y="240" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#247367">02  范围：给谁、在哪使用</text>
+<text x="644" y="288" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">一次执行 / 一个会话</text>
+<text x="644" y="326" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">一个工单 / 一个业务对象</text>
+<text x="644" y="364" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">一个用户 / 一个企业租户</text>
+<text x="644" y="402" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">经审核后共享的组织知识</text>
+<rect x="50" y="510" width="530" height="280" rx="12" fill="#f5f2f9" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="527" width="4" height="246" rx="0" fill="#6d5890" stroke="#6d5890" stroke-width="1.5"/>
+<text x="74" y="560" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#6d5890">03  载体：怎样表达与保存</text>
+<text x="74" y="608" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">消息、摘要、文件笔记</text>
+<text x="74" y="646" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">结构化字段、事件、关系图</text>
+<text x="74" y="684" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">模型参数或学习得到的隐式表示</text>
+<text x="74" y="722" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">存储载体与记忆功能分别选择</text>
+<rect x="620" y="510" width="530" height="280" rx="12" fill="#fbf6ec" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="621" y="527" width="4" height="246" rx="0" fill="#9a6727" stroke="#9a6727" stroke-width="1.5"/>
+<text x="644" y="560" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#9a6727">04  控制：谁来管理、何时更新</text>
+<text x="644" y="608" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">规则与工作流确定性更新</text>
+<text x="644" y="646" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">模型通过工具选择读写</text>
+<text x="644" y="684" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">经过训练的记忆管理策略</text>
+<text x="644" y="722" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">请求链路更新 / 后台整理</text>
+<rect x="50" y="830" width="1100" height="92" rx="12" fill="#f3f6fa" stroke="#c8d3df" stroke-width="1.5"/>
+<text x="74" y="870" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="600" fill="#172b45">组合示例：本工单通过站内信联系</text>
+<text x="74" y="907" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">事实与约束  ×  工单范围  ×  结构化记录  ×  明确表达后写入、结案后退出</text>
+<polyline points="50,944 1150,944" fill="none" stroke="#c8d3df" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="986" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#52657a">这些分类相互独立；“长期”“语义”“图”“自主”并不是四个互斥选项。</text>
+</svg>
