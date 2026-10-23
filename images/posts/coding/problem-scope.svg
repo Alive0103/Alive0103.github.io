@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="810" viewBox="0 0 1200 810" role="img" aria-labelledby="title desc">
+<title id="title">实现之前，先决定该做什么、做多少</title>
+<desc id="desc">在实现前依次定义问题、明确关键保证、选择足够的实现、核对维护成本。新增状态、依赖和抽象时，需要重新核对这些决定。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#677A90"/></marker></defs>
+<rect width="1200" height="810" fill="#FFFFFF"/>
+<g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="64" y="83" font-size="42" font-weight="600" text-anchor="start" fill="#172B4D">实现之前，先决定该做什么、做多少</text>
+<text x="64" y="132" font-size="28" font-weight="400" text-anchor="start" fill="#526277">生成得出来，还需要说明为什么值得引入系统。</text>
+<path d="M 64 158 L 1136 158" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="64" y="194" width="480" height="210" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="96" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#2F5D92">01  定义问题</text>
+<text x="96" y="306" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">谁遇到什么困难？</text>
+<text x="96" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">什么结果才算解决？</text>
+<rect x="656" y="194" width="480" height="210" rx="8" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="688" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#976020">02  明确关键保证</text>
+<text x="688" y="306" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">哪些后果不能接受？</text>
+<text x="688" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">哪些前提还未确认？</text>
+<rect x="656" y="488" width="480" height="210" rx="8" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
+<text x="688" y="540" font-size="32" font-weight="600" text-anchor="start" fill="#326A54">03  选择足够的实现</text>
+<text x="688" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">机制对应哪项真实需求？</text>
+<text x="688" y="643" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">能否用更少的概念完成？</text>
+<rect x="64" y="488" width="480" height="210" rx="8" fill="#F5F7FA" stroke="#CAD3DF" stroke-width="2"/>
+<text x="96" y="540" font-size="32" font-weight="600" text-anchor="start" fill="#42546B">04  核对维护成本</text>
+<text x="96" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">谁能解释、定位和修改？</text>
+<text x="96" y="643" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">新增状态是否值得承担？</text>
+<path d="M 544 299 L 653 299" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 896 404 L 896 485" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 656 593 L 547 593" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="456" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">实现前，也要决定做到哪里</text>
+<text x="600" y="764" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">每次引入新状态、新依赖或新抽象，都应重新核对。</text>
+</g>
+</svg>

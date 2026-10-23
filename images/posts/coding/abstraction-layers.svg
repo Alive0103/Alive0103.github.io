@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">向上看需求，向下看机制</title>
+<desc id="desc">以 Agent 工具重试封装为当前工作，向上明确一次下单不能因重试产生重复订单的业务保证，向下检查请求身份、去重约束与状态保存。上下各一层是理解的起点。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#677A90"/></marker></defs>
+<rect width="1200" height="800" fill="#FFFFFF"/>
+<g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="64" y="83" font-size="42" font-weight="600" text-anchor="start" fill="#172B4D">向上看需求，向下看机制</text>
+<text x="64" y="132" font-size="28" font-weight="400" text-anchor="start" fill="#526277">从当前工作出发，追问保证如何成立、何时失效。</text>
+<path d="M 64 158 L 1136 158" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="242" y="193" width="894" height="148" rx="8" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="274" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#976020">需求：使用者需要什么保证？</text>
+<text x="274" y="301" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">一次下单，不能因为重试多出一笔订单。</text>
+<rect x="242" y="383" width="894" height="148" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="274" y="436" font-size="32" font-weight="600" text-anchor="start" fill="#2F5D92">当前工作：Agent 工具的重试封装</text>
+<text x="274" y="491" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">何时重试 · 是否复用标识 · 如何报告结果</text>
+<rect x="242" y="573" width="894" height="148" rx="8" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
+<text x="274" y="626" font-size="32" font-weight="600" text-anchor="start" fill="#326A54">机制：保证依靠什么成立？</text>
+<text x="274" y="681" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">请求身份 · 去重约束 · 状态保存与生命周期</text>
+<text x="64" y="276" font-size="28" font-weight="600" text-anchor="start" fill="#976020">向上看</text>
+<text x="64" y="466" font-size="28" font-weight="600" text-anchor="start" fill="#2F5D92">当前层</text>
+<text x="64" y="656" font-size="28" font-weight="600" text-anchor="start" fill="#326A54">向下看</text>
+<path d="M 193 439 L 193 267" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 193 476 L 193 647" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="773" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">上下各一层只是起点；遇到疑问，就沿着证据继续追。</text>
+</g>
+</svg>

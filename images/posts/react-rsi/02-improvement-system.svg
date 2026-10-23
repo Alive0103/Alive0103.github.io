@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1110" viewBox="0 0 1120 1110" role="img" aria-labelledby="title desc">
+<title id="title">自我改进系统：从执行证据到可继承的版本</title><desc id="desc">固定实验条件下，改进器读取版本和经验，生成候选。候选运行后接受筛选，结果进入档案供下一轮使用。冻结候选在未参与选择的新任务上检查泛化。</desc>
+<rect x="0" y="0" width="1120" height="1110" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<text x="48" y="46.900000000000006" font-size="18" text-anchor="start" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">REACT &amp; RSI  /  02</text>
+<text x="48" y="101.80000000000001" font-size="36" text-anchor="start" fill="#172b45" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">自我改进系统：从证据到下一版</text>
+<text x="48" y="142.15" font-size="23" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">本文参考设计：可修改对象、实验条件与独立验证分别明确。</text>
+<rect x="48" y="172" width="1024" height="126" fill="#f8fafd" stroke="#d4deeb" stroke-width="2"/>
+<text x="72" y="214.3" font-size="26" text-anchor="start" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">先约定实验条件</text>
+<text x="72" y="255.2" font-size="24" text-anchor="start" fill="#172b45" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">可修改范围  ·  任务分布  ·  模型版本  ·  调用与执行预算</text>
+<text x="72" y="288.95" font-size="19" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">各候选在可比较的条件下运行。</text>
+<rect x="72" y="359" width="270" height="128" fill="#f0f5fc" stroke="#315f9c" stroke-width="2"/>
+<text x="207.0" y="402.3" font-size="26" text-anchor="middle" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">当前版本与经验</text>
+<text x="207.0" y="436.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">代码 / 提示词 / 工具</text>
+<text x="207.0" y="464.40000000000003" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">结果 / 成本 / 失败记录</text>
+<rect x="425" y="359" width="270" height="128" fill="#f5f0fb" stroke="#7757a5" stroke-width="2"/>
+<text x="560.0" y="402.3" font-size="26" text-anchor="middle" fill="#7757a5" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">改进器</text>
+<text x="560.0" y="436.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">读取证据、提出假设</text>
+<text x="560.0" y="464.40000000000003" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">实现候选改动</text>
+<rect x="778" y="359" width="270" height="128" fill="#f5f0fb" stroke="#7757a5" stroke-width="2"/>
+<text x="913.0" y="402.3" font-size="26" text-anchor="middle" fill="#7757a5" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">候选版本</text>
+<text x="913.0" y="436.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">独立运行所需的</text>
+<text x="913.0" y="464.40000000000003" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">代码与配置</text>
+<defs><marker id="02-improvement-system-18-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 353 423 L 414 423" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#02-improvement-system-18-head)"/>
+<defs><marker id="02-improvement-system-19-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 706 423 L 767 423" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#02-improvement-system-19-head)"/>
+<defs><marker id="02-improvement-system-20-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 913 499 L 913 596" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#02-improvement-system-20-head)"/>
+<text x="933" y="557.0" font-size="20" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">执行</text>
+<rect x="778" y="610" width="270" height="128" fill="#fff6ea" stroke="#9a652e" stroke-width="2"/>
+<text x="913.0" y="653.3" font-size="26" text-anchor="middle" fill="#9a652e" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">运行与记录</text>
+<text x="913.0" y="687.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">任务结果、过程证据</text>
+<text x="913.0" y="715.4" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">资源消耗</text>
+<rect x="425" y="610" width="270" height="128" fill="#eef8f2" stroke="#33795f" stroke-width="2"/>
+<text x="560.0" y="653.3" font-size="26" text-anchor="middle" fill="#33795f" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">筛选与比较</text>
+<text x="560.0" y="687.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">质量 / 成本 / 重复性</text>
+<text x="560.0" y="715.4" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">接受或拒绝候选</text>
+<rect x="72" y="610" width="270" height="128" fill="#f0f5fc" stroke="#315f9c" stroke-width="2"/>
+<text x="207.0" y="653.3" font-size="26" text-anchor="middle" fill="#315f9c" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">版本档案</text>
+<text x="207.0" y="687.05" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">版本关系与实验结果</text>
+<text x="207.0" y="715.4" font-size="21" text-anchor="middle" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">有效改动供后续使用</text>
+<defs><marker id="02-improvement-system-31-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 767 674 L 706 674" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#02-improvement-system-31-head)"/>
+<defs><marker id="02-improvement-system-32-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 414 674 L 353 674" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#02-improvement-system-32-head)"/>
+<defs><marker id="02-improvement-system-33-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#52657a" stroke-width="1.8"/></marker></defs>
+<path d="M 207 598 L 207 499" fill="none" stroke="#52657a" stroke-width="2.3" marker-end="url(#02-improvement-system-33-head)"/>
+<text x="229" y="553.0" font-size="20" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">进入下一轮</text>
+<text x="385" y="543.1" font-size="22" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">筛选结果会影响后续搜索，</text>
+<text x="385" y="575.1" font-size="22" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">所以筛选集已经参与优化。</text>
+<defs><marker id="02-improvement-system-37-head" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M 1 1 L 10 6 L 1 11" fill="none" stroke="#33795f" stroke-width="1.8"/></marker></defs>
+<path d="M 207 750 L 207 848" fill="none" stroke="#33795f" stroke-width="2.3" marker-end="url(#02-improvement-system-37-head)" stroke-dasharray="7 5"/>
+<text x="229" y="810.05" font-size="21" text-anchor="start" fill="#33795f" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">阶段性冻结候选</text>
+<rect x="48" y="860" width="1024" height="174" fill="#f3f9f5" stroke="#91b5a0" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="72" y="909.4" font-size="28" text-anchor="start" fill="#33795f" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">用未参与选择的新任务检查泛化</text>
+<text x="72" y="953.15" font-size="23" text-anchor="start" fill="#172b45" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">在相同预算下，收益是否仍成立？能否适用于不同任务或环境？</text>
+<text x="72" y="1001.1" font-size="22" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">若检查结果又用于继续调参，后续仍需保留新的独立任务。</text>
+<text x="48" y="1081.0" font-size="20" text-anchor="start" fill="#52657a" font-family="Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">本文参考架构 · 版本档案可保留多条探索路线，不必只保留一个全局赢家。</text>
+</svg>

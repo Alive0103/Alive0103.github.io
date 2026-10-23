@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040" role="img" aria-labelledby="title desc">
+<title id="title">用业务结果决定记忆怎样演进</title>
+<desc id="desc">三个交付阶段分别解决工单续接、历史可查和经验复用。评估检查记对、用对、做对，从失败归因回到下一次范围明确的改动。</desc>
+<rect x="0" y="0" width="1200" height="1040" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="50" y="48" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#315f9c">AGENT MEMORY  /  06</text>
+<text x="50" y="108" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="600" fill="#172b45">用业务结果决定记忆怎样演进</text>
+<text x="50" y="149" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">先补连续性，再补历史检索，最后沉淀经过验证的方法。</text>
+<rect x="50" y="200" width="340" height="240" rx="12" fill="#f1f5fb" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="217" width="4" height="206" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="74" y="250" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">01  接续同一问题</text>
+<text x="74" y="296" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">身份与工单关联</text>
+<text x="74" y="334" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">材料、状态、承诺、交接</text>
+<text x="74" y="372" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">读取实时业务事实</text>
+<text x="74" y="410" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">观察重复解释与状态误报</text>
+<rect x="430" y="200" width="340" height="240" rx="12" fill="#eff7f4" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="431" y="217" width="4" height="206" rx="0" fill="#247367" stroke="#247367" stroke-width="1.5"/>
+<text x="454" y="250" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#247367">02  找回必要历史</text>
+<text x="454" y="296" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">事件检索与时间过滤</text>
+<text x="454" y="334" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">按需展开证据</text>
+<text x="454" y="372" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">有限偏好与纠正入口</text>
+<text x="454" y="410" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">观察召回收益及整理成本</text>
+<rect x="810" y="200" width="340" height="240" rx="12" fill="#f5f2f9" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="811" y="217" width="4" height="206" rx="0" fill="#6d5890" stroke="#6d5890" stroke-width="1.5"/>
+<text x="834" y="250" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#6d5890">03  复用有效经验</text>
+<text x="834" y="296" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">结案后提炼候选方法</text>
+<text x="834" y="334" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">审核适用条件与结果</text>
+<text x="834" y="372" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">版本化发布、允许撤回</text>
+<text x="834" y="410" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">观察解决率与再次来访</text>
+<polyline points="390,320 430,320" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="419.00,315.00 430.00,320.00 419.00,325.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="770,320 810,320" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="799.00,315.00 810.00,320.00 799.00,325.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="220,440 220,500" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="600,440 600,500" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="980,440 980,500" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="220,500 980,500" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="600,500 600,560" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="605.00,549.00 600.00,560.00 595.00,549.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="50" y="560" width="1100" height="198" rx="12" fill="#f3f6fa" stroke="#c8d3df" stroke-width="1.5"/>
+<text x="75" y="609" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="600" fill="#172b45">每一阶段都观察三层结果</text>
+<text x="80" y="666" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">记对</text>
+<text x="420" y="666" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#247367">用对</text>
+<text x="805" y="666" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#6d5890">做对</text>
+<text x="80" y="710" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">归属、事实、时间、更新</text>
+<text x="420" y="710" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">召回、来源、范围、有效性</text>
+<text x="805" y="710" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">解决、履约、成本</text>
+<polyline points="600,758 600,812" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="605.00,801.00 600.00,812.00 595.00,801.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="50" y="812" width="1100" height="108" rx="12" fill="#fbf6ec" stroke="#d9c6a2" stroke-width="1.5"/>
+<text x="75" y="858" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#9a6727">失败归因 → 一次范围明确的改动 → 回放与灰度对照</text>
+<text x="75" y="899" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#9a6727">保持模型、工具和规则等条件可比；评估只读取当时已经存在的信息。</text>
+<polyline points="50,866 24,866 24,320 50,320" fill="none" stroke="#9a6727" stroke-width="2" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<polyline points="39.00,315.00 50.00,320.00 39.00,325.00" fill="none" stroke="#9a6727" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="50,964 1150,964" fill="none" stroke="#c8d3df" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="1006" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#52657a">是否进入下一阶段，取决于剩余问题与可验证收益，而非架构复杂程度。</text>
+</svg>

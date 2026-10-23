@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1030" viewBox="0 0 1200 1030" role="img" aria-labelledby="title desc">
+<title id="title">一条记忆的完整生命周期</title>
+<desc id="desc">来源事件进入候选提取，经过核验整合后持久化；当前请求触发召回与使用，新的结果驱动更新、失效或删除。证据引用贯穿各阶段。</desc>
+<rect x="0" y="0" width="1200" height="1030" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="50" y="48" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#315f9c">AGENT MEMORY  /  02</text>
+<text x="50" y="108" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="600" fill="#172b45">一条记忆的完整生命周期</text>
+<text x="50" y="149" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#52657a">写入、读取、修正与遗忘，都需要保留来源和作用范围。</text>
+<rect x="50" y="185" width="1100" height="110" rx="12" fill="#f1f5fb" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="202" width="4" height="76" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="74" y="235" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">来源事件</text>
+<text x="74" y="283" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#52657a">用户表达 · 工具回执 · 人工处理 · 业务系统变更</text>
+<polyline points="215,295 215,345" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="220.00,334.00 215.00,345.00 210.00,334.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="50" y="345" width="330" height="180" rx="12" fill="#f1f5fb" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="362" width="4" height="146" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="74" y="395" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">01  候选提取</text>
+<text x="74" y="441" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">筛选未来可能复用的信息</text>
+<text x="74" y="479" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">保留对象、条件与来源</text>
+<rect x="435" y="345" width="330" height="180" rx="12" fill="#f1f5fb" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="436" y="362" width="4" height="146" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="459" y="395" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">02  核验与整合</text>
+<text x="459" y="441" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">区分重复、补充和冲突</text>
+<text x="459" y="479" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">确定归属、时间与状态</text>
+<rect x="820" y="345" width="330" height="180" rx="12" fill="#f1f5fb" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="821" y="362" width="4" height="146" rx="0" fill="#315f9c" stroke="#315f9c" stroke-width="1.5"/>
+<text x="844" y="395" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#315f9c">03  持久化与索引</text>
+<text x="844" y="441" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">保存记录及版本</text>
+<text x="844" y="479" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">建立必要的查询入口</text>
+<polyline points="380,435 435,435" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="424.00,430.00 435.00,435.00 424.00,440.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="765,435 820,435" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="809.00,430.00 820.00,435.00 809.00,440.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="985,525 985,650" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="990.00,639.00 985.00,650.00 980.00,639.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<text x="1000" y="595" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#52657a">当前请求</text>
+<rect x="820" y="650" width="330" height="180" rx="12" fill="#eff7f4" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="821" y="667" width="4" height="146" rx="0" fill="#247367" stroke="#247367" stroke-width="1.5"/>
+<text x="844" y="700" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#247367">04  召回与组装</text>
+<text x="844" y="746" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">先限定权限与任务范围</text>
+<text x="844" y="784" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">再找相关证据并展开</text>
+<rect x="435" y="650" width="330" height="180" rx="12" fill="#eff7f4" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="436" y="667" width="4" height="146" rx="0" fill="#247367" stroke="#247367" stroke-width="1.5"/>
+<text x="459" y="700" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#247367">05  使用与行动</text>
+<text x="459" y="746" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">区分事实、陈述和推断</text>
+<text x="459" y="784" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">结合规则与实时查询</text>
+<rect x="50" y="650" width="330" height="180" rx="12" fill="#eff7f4" stroke="#c8d3df" stroke-width="1.5"/>
+<rect x="51" y="667" width="4" height="146" rx="0" fill="#247367" stroke="#247367" stroke-width="1.5"/>
+<text x="74" y="700" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="600" fill="#247367">06  更新与退出</text>
+<text x="74" y="746" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">纠正、失效、到期、删除</text>
+<text x="74" y="784" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#52657a">同步处理受影响的派生项</text>
+<polyline points="820,740 765,740" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="776.00,745.00 765.00,740.00 776.00,735.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="435,740 380,740" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="391.00,745.00 380.00,740.00 391.00,735.00" fill="none" stroke="#52657a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="215,650 215,525" fill="none" stroke="#247367" stroke-width="2" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<polyline points="210.00,536.00 215.00,525.00 220.00,536.00" fill="none" stroke="#247367" stroke-width="2" stroke-linejoin="round"/>
+<text x="230" y="595" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#247367">新证据</text>
+<rect x="50" y="870" width="1100" height="64" rx="12" fill="#fbf6ec" stroke="#d9c6a2" stroke-width="1.5"/>
+<text x="74" y="910" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#9a6727">全程携带：证据引用、主体与对象、有效时间、来源类型、记录状态</text>
+<polyline points="50,954 1150,954" fill="none" stroke="#c8d3df" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="996" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#52657a">“不再作为当前事实使用”与“删除全部记录”，需要分别定义。</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="810" viewBox="0 0 1200 810" role="img" aria-labelledby="title desc">
+<title id="title">让一次交付，留下自己的判断</title>
+<desc id="desc">学习循环按顺时针依次为先作判断、做个实验、对照修正、换个条件。先写下预期，再借助 AI 寻找证据，最后检查修正后的理解能否用于新条件。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#677A90"/></marker></defs>
+<rect width="1200" height="810" fill="#FFFFFF"/>
+<g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#172B4D">
+<text x="64" y="83" font-size="42" font-weight="600" text-anchor="start" fill="#172B4D">让一次交付，留下自己的判断</text>
+<text x="64" y="132" font-size="28" font-weight="400" text-anchor="start" fill="#526277">挑一个关键机制，用事实检查自己的理解。</text>
+<path d="M 64 158 L 1136 158" fill="none" stroke="#DEE4EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="64" y="194" width="480" height="210" rx="8" fill="#FFF5EA" stroke="#C99657" stroke-width="2"/>
+<text x="96" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#976020">01  先作判断</text>
+<text x="96" y="306" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">我预计会发生什么？</text>
+<text x="96" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">写下预测、依据与未知。</text>
+<rect x="656" y="194" width="480" height="210" rx="8" fill="#F0F5FC" stroke="#5A7FAD" stroke-width="2"/>
+<text x="688" y="246" font-size="32" font-weight="600" text-anchor="start" fill="#2F5D92">02  做个实验</text>
+<text x="688" y="306" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">系统实际发生了什么？</text>
+<text x="688" y="349" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">借助 AI 查代码、搭场景。</text>
+<rect x="656" y="488" width="480" height="210" rx="8" fill="#EFF7F3" stroke="#5B927A" stroke-width="2"/>
+<text x="688" y="540" font-size="32" font-weight="600" text-anchor="start" fill="#326A54">03  对照修正</text>
+<text x="688" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">结果由哪个机制产生？</text>
+<text x="688" y="643" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">按业务保证核对实际结果。</text>
+<rect x="64" y="488" width="480" height="210" rx="8" fill="#F5F7FA" stroke="#CAD3DF" stroke-width="2"/>
+<text x="96" y="540" font-size="32" font-weight="600" text-anchor="start" fill="#42546B">04  换个条件</text>
+<text x="96" y="600" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">并发、超时、重启……</text>
+<text x="96" y="643" font-size="28" font-weight="400" text-anchor="start" fill="#172B4D">我还知道该检查哪里吗？</text>
+<path d="M 544 299 L 653 299" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 896 404 L 896 485" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 656 593 L 547 593" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 304 488 L 304 407" fill="none" stroke="#677A90" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="600" y="456" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">判断 → 证据 → 修正</text>
+<text x="600" y="764" font-size="28" font-weight="400" text-anchor="middle" fill="#526277">换一个条件，检查修正后的理解能否继续成立。</text>
+</g>
+</svg>
